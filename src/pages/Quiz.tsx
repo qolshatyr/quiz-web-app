@@ -14,7 +14,8 @@ import {
   saveResult,
 } from '../utils/storage'
 
-const AUTO_ADVANCE_DELAY_MS = 750
+const AUTO_ADVANCE_DELAY_CORRECT_MS = 1100
+const AUTO_ADVANCE_DELAY_WRONG_MS = 1450
 
 function Quiz() {
   const navigate = useNavigate()
@@ -38,9 +39,13 @@ function Quiz() {
   }, [session])
 
   useEffect(() => {
+    document.body.classList.add('quiz-focus')
+
     return () => {
+      document.body.classList.remove('quiz-focus')
       if (timeoutRef.current) {
         window.clearTimeout(timeoutRef.current)
+        timeoutRef.current = null
       }
     }
   }, [])
@@ -81,6 +86,10 @@ function Quiz() {
   }
 
   const handleFinish = (nextSession: QuizSession) => {
+    if (timeoutRef.current) {
+      window.clearTimeout(timeoutRef.current)
+      timeoutRef.current = null
+    }
     const result = buildQuizResult(nextSession)
     saveResult(result)
     navigate('/results')
@@ -89,6 +98,11 @@ function Quiz() {
   const handleSelectAnswer = (optionId: string) => {
     if (currentAnswer || isTransitioning) {
       return
+    }
+
+    if (timeoutRef.current) {
+      window.clearTimeout(timeoutRef.current)
+      timeoutRef.current = null
     }
 
     const isCorrect = optionId === currentQuestion.correctOptionId
@@ -119,14 +133,16 @@ function Quiz() {
     setFeedbackLabel(
       isCorrect
         ? reward.milestoneLabel
-          ? `Correct. +${reward.xpEarned} XP. ${reward.milestoneLabel}`
-          : `Correct. +${reward.xpEarned} XP`
-        : 'Incorrect. Streak reset.'
+          ? `Correct! +${reward.xpEarned} XP. ${reward.milestoneLabel}`
+          : `Correct! +${reward.xpEarned} XP`
+        : 'Incorrect. Correct answer highlighted.'
     )
     setMilestoneLabel(reward.milestoneLabel)
     setLastGainXP(reward.xpEarned)
 
     timeoutRef.current = window.setTimeout(() => {
+      timeoutRef.current = null
+
       if (nextSession.currentIndex >= nextSession.questions.length - 1) {
         handleFinish(nextSession)
         return
@@ -137,7 +153,7 @@ function Quiz() {
         currentIndex: nextSession.currentIndex + 1,
       })
       resetTransientFeedback()
-    }, AUTO_ADVANCE_DELAY_MS)
+    }, isCorrect ? AUTO_ADVANCE_DELAY_CORRECT_MS : AUTO_ADVANCE_DELAY_WRONG_MS)
   }
 
   const handleExit = () => {
@@ -154,6 +170,7 @@ function Quiz() {
 
     if (timeoutRef.current) {
       window.clearTimeout(timeoutRef.current)
+      timeoutRef.current = null
     }
 
     clearActiveQuizSession()
@@ -161,26 +178,28 @@ function Quiz() {
   }
 
   return (
-    <div className="min-h-screen bg-transparent pb-10">
-      <QuizProgress
-        current={session.currentIndex + 1}
-        earnedXP={session.earnedXP}
-        lastGainXP={lastGainXP}
-        level={liveLevel}
-        milestoneLabel={milestoneLabel}
-        onExit={handleExit}
-        streak={session.currentStreak}
-        total={session.questions.length}
-      />
-
-      <div className="px-4 pb-6 pt-5 sm:px-6">
-        <FocusQuizCard
-          answer={currentAnswer}
-          feedbackLabel={feedbackLabel}
-          feedbackTone={feedbackTone}
-          onSelectAnswer={handleSelectAnswer}
-          question={currentQuestion}
+    <div className="quiz-stage min-h-screen pb-8">
+      <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col justify-between px-4 pb-8 pt-4 sm:px-6 lg:px-8">
+        <QuizProgress
+          current={session.currentIndex + 1}
+          earnedXP={session.earnedXP}
+          lastGainXP={lastGainXP}
+          level={liveLevel}
+          milestoneLabel={milestoneLabel}
+          onExit={handleExit}
+          streak={session.currentStreak}
+          total={session.questions.length}
         />
+
+        <div className="flex flex-1 items-center justify-center py-4 sm:py-6">
+          <FocusQuizCard
+            answer={currentAnswer}
+            feedbackLabel={feedbackLabel}
+            feedbackTone={feedbackTone}
+            onSelectAnswer={handleSelectAnswer}
+            question={currentQuestion}
+          />
+        </div>
       </div>
     </div>
   )
