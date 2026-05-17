@@ -3,7 +3,7 @@
     "title": "Additional Final Exam Sample Questions — grouped by topics",
     "description": "Structured quiz dataset converted from the uploaded final exam sample questions PDF.",
     "sourceFile": "Additional Final exam sample questions.pdf",
-    "totalQuestions": 174,
+    "totalQuestions": 241,
     "version": "2.0.0",
     "language": "en",
     "schema": {
@@ -17,11 +17,11 @@
     "totalTopics": 14,
     "structure": "quiz_sets_of_30",
     "formatVersion": "2.0",
-    "totalOriginalQuestions": 174,
+    "totalOriginalQuestions": 241,
     "quizSize": 30,
     "quizSetCount": 6,
     "totalQuestionsInQuizSets": 180,
-    "note": "There are 174 original questions. To keep every quiz at exactly 30 questions, the final quiz includes 6 review repeats marked with isReviewRepeat=true."
+    "note": "Embedded quizSets were left unchanged from the previous version and may still include review repeats marked with isReviewRepeat=true."
   },
   "topicIndex": [
     {
@@ -29,7 +29,7 @@
       "order": 1,
       "title": "k-NN and distance-based classification",
       "description": "Feature scaling, k value, categorical encoding, pipelines, and leakage in k-NN.",
-      "questionCount": 8,
+      "questionCount": 13,
       "questionIds": [
         "q001",
         "q002",
@@ -38,7 +38,12 @@
         "q005",
         "q006",
         "q007",
-        "q008"
+        "q008",
+        "q175",
+        "q226",
+        "q230",
+        "q232",
+        "q234"
       ]
     },
     {
@@ -46,7 +51,7 @@
       "order": 2,
       "title": "Regression and cross-validation",
       "description": "Regression goals, linear regression, coefficients, k-fold CV, model selection, MSE, and multicollinearity.",
-      "questionCount": 15,
+      "questionCount": 20,
       "questionIds": [
         "q009",
         "q010",
@@ -62,7 +67,12 @@
         "q020",
         "q021",
         "q022",
-        "q023"
+        "q023",
+        "q176",
+        "q177",
+        "q229",
+        "q233",
+        "q235"
       ]
     },
     {
@@ -70,7 +80,7 @@
       "order": 3,
       "title": "Regularization: Ridge, LASSO, Elastic Net",
       "description": "L1/L2 penalties, lambda strength, high-dimensional overfitting, and coefficient shrinkage.",
-      "questionCount": 7,
+      "questionCount": 8,
       "questionIds": [
         "q024",
         "q025",
@@ -78,7 +88,8 @@
         "q027",
         "q028",
         "q029",
-        "q030"
+        "q030",
+        "q178"
       ]
     },
     {
@@ -86,7 +97,7 @@
       "order": 4,
       "title": "Classification metrics and logistic regression",
       "description": "Accuracy, precision, recall, confusion matrix, sigmoid, thresholds, AUC, scaling, convergence, and L1 solver issues.",
-      "questionCount": 21,
+      "questionCount": 29,
       "questionIds": [
         "q031",
         "q032",
@@ -108,7 +119,15 @@
         "q086",
         "q088",
         "q132",
-        "q145"
+        "q145",
+        "q179",
+        "q180",
+        "q181",
+        "q182",
+        "q183",
+        "q227",
+        "q236",
+        "q240"
       ]
     },
     {
@@ -116,7 +135,7 @@
       "order": 5,
       "title": "Decision trees and information gain",
       "description": "Random state, overfitting, validation, GridSearchCV, max_depth, entropy, and information gain.",
-      "questionCount": 16,
+      "questionCount": 20,
       "questionIds": [
         "q048",
         "q049",
@@ -133,7 +152,11 @@
         "q060",
         "q061",
         "q067",
-        "q092"
+        "q092",
+        "q185",
+        "q186",
+        "q188",
+        "q238"
       ]
     },
     {
@@ -141,7 +164,7 @@
       "order": 6,
       "title": "Train/test split, validation, and preprocessing",
       "description": "Train-test split, holdout sets, validation sets, hyperparameters, categorical data, one-hot encoding, polynomial features, and missing data.",
-      "questionCount": 25,
+      "questionCount": 29,
       "questionIds": [
         "q062",
         "q063",
@@ -167,7 +190,11 @@
         "q141",
         "q142",
         "q154",
-        "q155"
+        "q155",
+        "q184",
+        "q228",
+        "q231",
+        "q241"
       ]
     },
     {
@@ -175,12 +202,15 @@
       "order": 7,
       "title": "Imbalanced data handling",
       "description": "Undersampling, oversampling, SMOTE, class weights, misleading accuracy, F1 and recall.",
-      "questionCount": 4,
+      "questionCount": 7,
       "questionIds": [
         "q082",
         "q083",
         "q084",
-        "q087"
+        "q087",
+        "q187",
+        "q189",
+        "q237"
       ]
     },
     {
@@ -188,7 +218,7 @@
       "order": 8,
       "title": "Ensemble learning: Random Forest, AdaBoost, Gradient Boosting",
       "description": "Bagging, feature randomness, boosting, learning rate, n_estimators, and overfitting risk.",
-      "questionCount": 22,
+      "questionCount": 23,
       "questionIds": [
         "q089",
         "q090",
@@ -211,7 +241,8 @@
         "q171",
         "q172",
         "q173",
-        "q174"
+        "q174",
+        "q197"
       ]
     },
     {
@@ -219,7 +250,7 @@
       "order": 9,
       "title": "Unsupervised learning and KMeans",
       "description": "Clustering goals, KMeans, scaling, centroids, distribution shift, silhouette score, outliers, and anomaly distances.",
-      "questionCount": 14,
+      "questionCount": 34,
       "questionIds": [
         "q107",
         "q108",
@@ -234,7 +265,27 @@
         "q117",
         "q118",
         "q119",
-        "q158"
+        "q158",
+        "q190",
+        "q191",
+        "q192",
+        "q198",
+        "q204",
+        "q205",
+        "q206",
+        "q207",
+        "q208",
+        "q209",
+        "q211",
+        "q212",
+        "q213",
+        "q214",
+        "q215",
+        "q216",
+        "q217",
+        "q218",
+        "q224",
+        "q225"
       ]
     },
     {
@@ -242,7 +293,7 @@
       "order": 10,
       "title": "DBSCAN density-based clustering",
       "description": "eps, min_samples, noise label -1, no predict method, silhouette issues, and cluster counting.",
-      "questionCount": 11,
+      "questionCount": 13,
       "questionIds": [
         "q120",
         "q121",
@@ -254,7 +305,9 @@
         "q127",
         "q128",
         "q162",
-        "q164"
+        "q164",
+        "q219",
+        "q220"
       ]
     },
     {
@@ -262,13 +315,25 @@
       "order": 11,
       "title": "Hierarchical clustering and silhouette basics",
       "description": "Linkage, dendrograms, fcluster, distance thresholds, single linkage, silhouette method, agglomerative complexity.",
-      "questionCount": 5,
+      "questionCount": 17,
       "questionIds": [
         "q129",
         "q130",
         "q131",
         "q134",
-        "q159"
+        "q159",
+        "q193",
+        "q194",
+        "q199",
+        "q200",
+        "q201",
+        "q202",
+        "q203",
+        "q210",
+        "q221",
+        "q222",
+        "q223",
+        "q239"
       ]
     },
     {
@@ -296,14 +361,15 @@
       "order": 13,
       "title": "LDA and SVD",
       "description": "LDA vs PCA, class separation, covariance, singular values, TruncatedSVD, and pipeline order.",
-      "questionCount": 6,
+      "questionCount": 7,
       "questionIds": [
         "q147",
         "q148",
         "q149",
         "q150",
         "q161",
-        "q165"
+        "q165",
+        "q195"
       ]
     },
     {
@@ -311,7 +377,7 @@
       "order": 14,
       "title": "NMF: Nonnegative Matrix Factorization",
       "description": "Non-negative constraint, factorization, reconstruction, sparse data, MinMaxScaler, and information loss.",
-      "questionCount": 9,
+      "questionCount": 10,
       "questionIds": [
         "q151",
         "q152",
@@ -321,7 +387,8 @@
         "q166",
         "q167",
         "q168",
-        "q169"
+        "q169",
+        "q196"
       ]
     }
   ],
@@ -331,7 +398,7 @@
       "order": 1,
       "title": "k-NN and distance-based classification",
       "description": "Feature scaling, k value, categorical encoding, pipelines, and leakage in k-NN.",
-      "questionCount": 8,
+      "questionCount": 13,
       "questionIds": [
         "q001",
         "q002",
@@ -340,7 +407,12 @@
         "q005",
         "q006",
         "q007",
-        "q008"
+        "q008",
+        "q175",
+        "q226",
+        "q230",
+        "q232",
+        "q234"
       ],
       "questions": [
         {
@@ -662,6 +734,181 @@
           "topicId": "knn",
           "correctAnswer": "Incorrect preprocessing and data leakage during model training",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q175",
+          "category": "k-NN and distance-based classification",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "In K-NN:",
+          "options": [
+            {
+              "id": "q175_o1",
+              "text": "A higher value of the K parameter => higher confidence",
+              "isCorrect": false
+            },
+            {
+              "id": "q175_o2",
+              "text": "A higher value of the K parameter => lower confidence",
+              "isCorrect": false
+            },
+            {
+              "id": "q175_o3",
+              "text": "Higher distance to k nearest instances => higher confidence",
+              "isCorrect": false
+            },
+            {
+              "id": "q175_o4",
+              "text": "Higher distance to k nearest instances => lower confidence",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q175_o4",
+          "answer": "Higher distance to k nearest instances => lower confidence",
+          "explanation": "In k-NN, greater distance from the nearest neighbors means the local evidence is weaker, so the prediction is less confident.",
+          "topicId": "knn",
+          "correctAnswer": "Higher distance to k nearest instances => lower confidence",
+          "correctOptionIndex": 3
+        },
+        {
+          "id": "q226",
+          "category": "k-NN and distance-based classification",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "In kNN, for measuring distance with continuous features we use _____",
+          "options": [
+            {
+              "id": "q226_o1",
+              "text": "Euclidean distance",
+              "isCorrect": true
+            },
+            {
+              "id": "q226_o2",
+              "text": "Geographical distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q226_o3",
+              "text": "Statistic distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q226_o4",
+              "text": "Hamming distance",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q226_o1",
+          "answer": "Euclidean distance",
+          "explanation": "Euclidean distance is the standard choice for k-NN when features are continuous-valued.",
+          "topicId": "knn",
+          "correctAnswer": "Euclidean distance",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q230",
+          "category": "k-NN and distance-based classification",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "How is the performance of k-NN affected by large values of k?",
+          "options": [
+            {
+              "id": "q230_o1",
+              "text": "Majority class will dominate predictions",
+              "isCorrect": true
+            },
+            {
+              "id": "q230_o2",
+              "text": "k-NN becomes sensitive to noise data",
+              "isCorrect": false
+            },
+            {
+              "id": "q230_o3",
+              "text": "Not affected at all. k-NN is robust to any values of k",
+              "isCorrect": false
+            },
+            {
+              "id": "q230_o4",
+              "text": "Large values of k produce the best results",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q230_o1",
+          "answer": "Majority class will dominate predictions",
+          "explanation": "Very large k oversmooths the decision rule, so the majority class tends to dominate predictions.",
+          "topicId": "knn",
+          "correctAnswer": "Majority class will dominate predictions",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q232",
+          "category": "k-NN and distance-based classification",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "KNN is not suitable when you have ...",
+          "options": [
+            {
+              "id": "q232_o1",
+              "text": "Very many features",
+              "isCorrect": true
+            },
+            {
+              "id": "q232_o2",
+              "text": "Categorical data",
+              "isCorrect": false
+            },
+            {
+              "id": "q232_o3",
+              "text": "Less than 100 data points",
+              "isCorrect": false
+            },
+            {
+              "id": "q232_o4",
+              "text": "A regression problem",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q232_o1",
+          "answer": "Very many features",
+          "explanation": "With very many features, distance measures become less informative, which hurts k-NN performance.",
+          "topicId": "knn",
+          "correctAnswer": "Very many features",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q234",
+          "category": "k-NN and distance-based classification",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "The k in k-nearest neighbour is ...",
+          "options": [
+            {
+              "id": "q234_o1",
+              "text": "The number of neighbours used for computing output",
+              "isCorrect": true
+            },
+            {
+              "id": "q234_o2",
+              "text": "The number of features used to compare neighbours",
+              "isCorrect": false
+            },
+            {
+              "id": "q234_o3",
+              "text": "The number of features used to set the distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q234_o4",
+              "text": "The number of neighbours used to cluster data",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q234_o1",
+          "answer": "The number of neighbours used for computing output",
+          "explanation": "In k-NN, k is the number of neighbors used to make the prediction.",
+          "topicId": "knn",
+          "correctAnswer": "The number of neighbours used for computing output",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -675,7 +922,7 @@
       "order": 2,
       "title": "Regression and cross-validation",
       "description": "Regression goals, linear regression, coefficients, k-fold CV, model selection, MSE, and multicollinearity.",
-      "questionCount": 15,
+      "questionCount": 20,
       "questionIds": [
         "q009",
         "q010",
@@ -691,7 +938,12 @@
         "q020",
         "q021",
         "q022",
-        "q023"
+        "q023",
+        "q176",
+        "q177",
+        "q229",
+        "q233",
+        "q235"
       ],
       "questions": [
         {
@@ -1293,6 +1545,196 @@
           "topicId": "regression_cv",
           "correctAnswer": "Feature coefficients",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q176",
+          "category": "Regression and cross-validation",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does this code return? scores = cross_val_score(model, X, y, cv=5, scoring='r2')",
+          "options": [
+            {
+              "id": "q176_o1",
+              "text": "One final trained model",
+              "isCorrect": false
+            },
+            {
+              "id": "q176_o2",
+              "text": "Predicted target values",
+              "isCorrect": false
+            },
+            {
+              "id": "q176_o3",
+              "text": "Model coefficients",
+              "isCorrect": false
+            },
+            {
+              "id": "q176_o4",
+              "text": "Feature names",
+              "isCorrect": false
+            },
+            {
+              "id": "q176_o5",
+              "text": "R² scores for folds",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q176_o5",
+          "answer": "R² scores for folds",
+          "explanation": "cross_val_score with scoring='r2' returns one R² score for each fold, not a trained model.",
+          "topicId": "regression_cv",
+          "correctAnswer": "R² scores for folds",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q177",
+          "category": "Regression and cross-validation",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "You increase training data size significantly. What is expected?",
+          "options": [
+            {
+              "id": "q177_o1",
+              "text": "Model becomes random",
+              "isCorrect": false
+            },
+            {
+              "id": "q177_o2",
+              "text": "Features vanish",
+              "isCorrect": false
+            },
+            {
+              "id": "q177_o3",
+              "text": "Error always increases",
+              "isCorrect": false
+            },
+            {
+              "id": "q177_o4",
+              "text": "No effect",
+              "isCorrect": false
+            },
+            {
+              "id": "q177_o5",
+              "text": "Better generalization",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q177_o5",
+          "answer": "Better generalization",
+          "explanation": "With more representative training data, models usually generalize better because they see a broader sample of the true pattern.",
+          "topicId": "regression_cv",
+          "correctAnswer": "Better generalization",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q229",
+          "category": "Regression and cross-validation",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "In a simple regression model, if you increase the input value by 1 then you expect the output to change by:",
+          "options": [
+            {
+              "id": "q229_o1",
+              "text": "The value of the slope parameter",
+              "isCorrect": true
+            },
+            {
+              "id": "q229_o2",
+              "text": "The value of the intercept parameter",
+              "isCorrect": false
+            },
+            {
+              "id": "q229_o3",
+              "text": "The values of the slope AND the intercept parameters",
+              "isCorrect": false
+            },
+            {
+              "id": "q229_o4",
+              "text": "None of these",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q229_o1",
+          "answer": "The value of the slope parameter",
+          "explanation": "In simple linear regression, increasing x by 1 changes the prediction by the slope coefficient.",
+          "topicId": "regression_cv",
+          "correctAnswer": "The value of the slope parameter",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q233",
+          "category": "Regression and cross-validation",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does the least squares method do?",
+          "options": [
+            {
+              "id": "q233_o1",
+              "text": "Finds the best values for intercept and slope that provide us the smallest residual sum of squares",
+              "isCorrect": true
+            },
+            {
+              "id": "q233_o2",
+              "text": "Minimizes the distance between points",
+              "isCorrect": false
+            },
+            {
+              "id": "q233_o3",
+              "text": "Finds the least problematic regression line",
+              "isCorrect": false
+            },
+            {
+              "id": "q233_o4",
+              "text": "Finds the best values for intercept and slope that provide us the greatest residual sum of squares",
+              "isCorrect": false
+            },
+            {
+              "id": "q233_o5",
+              "text": "Finds the best values for intercept and slope that provide us the smallest residual",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q233_o1",
+          "answer": "Finds the best values for intercept and slope that provide us the smallest residual sum of squares",
+          "explanation": "Least squares chooses coefficients that minimize the residual sum of squares.",
+          "topicId": "regression_cv",
+          "correctAnswer": "Finds the best values for intercept and slope that provide us the smallest residual sum of squares",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q235",
+          "category": "Regression and cross-validation",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Suppose you are using k-fold cross-validation to assess model quality. How many times should you train the model?",
+          "options": [
+            {
+              "id": "q235_o1",
+              "text": "k",
+              "isCorrect": true
+            },
+            {
+              "id": "q235_o2",
+              "text": "k(k-1)/2",
+              "isCorrect": false
+            },
+            {
+              "id": "q235_o3",
+              "text": "k^2",
+              "isCorrect": false
+            },
+            {
+              "id": "q235_o4",
+              "text": "1",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q235_o1",
+          "answer": "k",
+          "explanation": "In k-fold cross-validation, the model is trained once per fold, so k times in total.",
+          "topicId": "regression_cv",
+          "correctAnswer": "k",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -1306,7 +1748,7 @@
       "order": 3,
       "title": "Regularization: Ridge, LASSO, Elastic Net",
       "description": "L1/L2 penalties, lambda strength, high-dimensional overfitting, and coefficient shrinkage.",
-      "questionCount": 7,
+      "questionCount": 8,
       "questionIds": [
         "q024",
         "q025",
@@ -1314,7 +1756,8 @@
         "q027",
         "q028",
         "q029",
-        "q030"
+        "q030",
+        "q178"
       ],
       "questions": [
         {
@@ -1596,6 +2039,46 @@
           "topicId": "regularization",
           "correctAnswer": "Becomes ordinary regression",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q178",
+          "category": "Regularization: Ridge, LASSO, Elastic Net",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Which formula represents LASSO regression loss?",
+          "options": [
+            {
+              "id": "q178_o1",
+              "text": "MSE + λ Σw²",
+              "isCorrect": false
+            },
+            {
+              "id": "q178_o2",
+              "text": "MSE − λ Σ|w|",
+              "isCorrect": false
+            },
+            {
+              "id": "q178_o3",
+              "text": "MSE × Σw",
+              "isCorrect": false
+            },
+            {
+              "id": "q178_o4",
+              "text": "MSE + Σw²",
+              "isCorrect": false
+            },
+            {
+              "id": "q178_o5",
+              "text": "MSE + λ Σ|w|",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q178_o5",
+          "answer": "MSE + λ Σ|w|",
+          "explanation": "LASSO adds an L1 penalty, so its objective is MSE plus lambda times the sum of absolute coefficient values.",
+          "topicId": "regularization",
+          "correctAnswer": "MSE + λ Σ|w|",
+          "correctOptionIndex": 4
         }
       ],
       "studyTips": [
@@ -1609,7 +2092,7 @@
       "order": 4,
       "title": "Classification metrics and logistic regression",
       "description": "Accuracy, precision, recall, confusion matrix, sigmoid, thresholds, AUC, scaling, convergence, and L1 solver issues.",
-      "questionCount": 21,
+      "questionCount": 29,
       "questionIds": [
         "q031",
         "q032",
@@ -1631,7 +2114,15 @@
         "q086",
         "q088",
         "q132",
-        "q145"
+        "q145",
+        "q179",
+        "q180",
+        "q181",
+        "q182",
+        "q183",
+        "q227",
+        "q236",
+        "q240"
       ],
       "questions": [
         {
@@ -2473,6 +2964,306 @@
           "topicId": "classification_metrics_logistic",
           "correctAnswer": "Important info lost",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q179",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Given precision=0.5 and recall=0.5, what is F1-score?",
+          "options": [
+            {
+              "id": "q179_o1",
+              "text": "0.25",
+              "isCorrect": false
+            },
+            {
+              "id": "q179_o2",
+              "text": "0.40",
+              "isCorrect": false
+            },
+            {
+              "id": "q179_o3",
+              "text": "0.45",
+              "isCorrect": false
+            },
+            {
+              "id": "q179_o4",
+              "text": "0.60",
+              "isCorrect": false
+            },
+            {
+              "id": "q179_o5",
+              "text": "0.50",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q179_o5",
+          "answer": "0.50",
+          "explanation": "When precision and recall are both 0.5, their harmonic mean is also 0.5.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "0.50",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q180",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What happens when threshold decreases?",
+          "options": [
+            {
+              "id": "q180_o1",
+              "text": "Fewer positives",
+              "isCorrect": false
+            },
+            {
+              "id": "q180_o2",
+              "text": "No effect",
+              "isCorrect": false
+            },
+            {
+              "id": "q180_o3",
+              "text": "Only negatives",
+              "isCorrect": false
+            },
+            {
+              "id": "q180_o4",
+              "text": "Model stops",
+              "isCorrect": false
+            },
+            {
+              "id": "q180_o5",
+              "text": "More positives predicted",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q180_o5",
+          "answer": "More positives predicted",
+          "explanation": "Lowering the classification threshold makes it easier to predict the positive class, so more samples are labeled positive.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "More positives predicted",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q181",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Given confusion matrix [[50,10],[5,35]], what is precision?",
+          "options": [
+            {
+              "id": "q181_o1",
+              "text": "0.75",
+              "isCorrect": false
+            },
+            {
+              "id": "q181_o2",
+              "text": "0.78",
+              "isCorrect": false
+            },
+            {
+              "id": "q181_o3",
+              "text": "0.80",
+              "isCorrect": false
+            },
+            {
+              "id": "q181_o4",
+              "text": "0.82",
+              "isCorrect": false
+            },
+            {
+              "id": "q181_o5",
+              "text": "0.83",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q181_o5",
+          "answer": "0.83",
+          "explanation": "Using the exam's confusion-matrix convention, precision is 50 / (50 + 10) = 0.83.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "0.83",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q182",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is wrong in this multi-class code? model = LogisticRegression() model.fit(X_train, y_train) y_pred = model.predict_proba(X_test)[:,1]",
+          "options": [
+            {
+              "id": "q182_o1",
+              "text": "predict_proba cannot be used",
+              "isCorrect": false
+            },
+            {
+              "id": "q182_o2",
+              "text": "y_train must be binary",
+              "isCorrect": false
+            },
+            {
+              "id": "q182_o3",
+              "text": "[:,1] selects wrong dimension always",
+              "isCorrect": false
+            },
+            {
+              "id": "q182_o4",
+              "text": "LogisticRegression cannot do multi-class",
+              "isCorrect": false
+            },
+            {
+              "id": "q182_o5",
+              "text": "Only one class probability is taken",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q182_o5",
+          "answer": "Only one class probability is taken",
+          "explanation": "For multi-class problems, taking only `[:,1]` keeps one class probability and ignores the rest of the probability matrix.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "Only one class probability is taken",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q183",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "In the logistic function y = 1/(1 + e^(-z)), where z = b0 + b1*x1 + b2*x2 + ... + bk*xk, what is k?",
+          "options": [
+            {
+              "id": "q183_o1",
+              "text": "the coefficient to optimize",
+              "isCorrect": false
+            },
+            {
+              "id": "q183_o2",
+              "text": "sets of values of respective Xs and Ys",
+              "isCorrect": false
+            },
+            {
+              "id": "q183_o3",
+              "text": "number of observations in data",
+              "isCorrect": false
+            },
+            {
+              "id": "q183_o4",
+              "text": "the number of independent variables/features",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q183_o4",
+          "answer": "the number of independent variables/features",
+          "explanation": "In the linear term z = b0 + b1*x1 + ... + bk*xk, k is the number of feature variables included in the model.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "the number of independent variables/features",
+          "correctOptionIndex": 3
+        },
+        {
+          "id": "q227",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "In confusion matrix for cancer detection if we predicted yes, but they don't have the disease",
+          "options": [
+            {
+              "id": "q227_o1",
+              "text": "False positives (FP)",
+              "isCorrect": true
+            },
+            {
+              "id": "q227_o2",
+              "text": "True positives (TP)",
+              "isCorrect": false
+            },
+            {
+              "id": "q227_o3",
+              "text": "False negatives (FN)",
+              "isCorrect": false
+            },
+            {
+              "id": "q227_o4",
+              "text": "True negatives (TN)",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q227_o1",
+          "answer": "False positives (FP)",
+          "explanation": "A false positive means the model predicted the positive class even though the true class was negative.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "False positives (FP)",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q236",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "This technique associates a conditional probability value with each data instance.",
+          "options": [
+            {
+              "id": "q236_o1",
+              "text": "Logistic regression",
+              "isCorrect": true
+            },
+            {
+              "id": "q236_o2",
+              "text": "Simple regression",
+              "isCorrect": false
+            },
+            {
+              "id": "q236_o3",
+              "text": "Linear regression",
+              "isCorrect": false
+            },
+            {
+              "id": "q236_o4",
+              "text": "Multiple linear regression",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q236_o1",
+          "answer": "Logistic regression",
+          "explanation": "Logistic regression models class probability, so it naturally outputs a conditional probability for each instance.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "Logistic regression",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q240",
+          "category": "Classification metrics and logistic regression",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Which algorithm is not suitable for solving a problem in which objects need to be divided into classes?",
+          "options": [
+            {
+              "id": "q240_o1",
+              "text": "Linear regression",
+              "isCorrect": true
+            },
+            {
+              "id": "q240_o2",
+              "text": "Random Forest",
+              "isCorrect": false
+            },
+            {
+              "id": "q240_o3",
+              "text": "Decision tree",
+              "isCorrect": false
+            },
+            {
+              "id": "q240_o4",
+              "text": "Logistic regression",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q240_o1",
+          "answer": "Linear regression",
+          "explanation": "Linear regression predicts continuous values, so it is not the right algorithm for class labels.",
+          "topicId": "classification_metrics_logistic",
+          "correctAnswer": "Linear regression",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -2486,7 +3277,7 @@
       "order": 5,
       "title": "Decision trees and information gain",
       "description": "Random state, overfitting, validation, GridSearchCV, max_depth, entropy, and information gain.",
-      "questionCount": 16,
+      "questionCount": 20,
       "questionIds": [
         "q048",
         "q049",
@@ -2503,7 +3294,11 @@
         "q060",
         "q061",
         "q067",
-        "q092"
+        "q092",
+        "q185",
+        "q186",
+        "q188",
+        "q238"
       ],
       "questions": [
         {
@@ -3145,6 +3940,161 @@
           "topicId": "decision_trees",
           "correctAnswer": "Random subset of data",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q185",
+          "category": "Decision trees and information gain",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does a decision tree split aim to achieve?",
+          "options": [
+            {
+              "id": "q185_o1",
+              "text": "Reduce dataset size",
+              "isCorrect": false
+            },
+            {
+              "id": "q185_o2",
+              "text": "Shuffle samples",
+              "isCorrect": false
+            },
+            {
+              "id": "q185_o3",
+              "text": "Scale features",
+              "isCorrect": false
+            },
+            {
+              "id": "q185_o4",
+              "text": "Add features",
+              "isCorrect": false
+            },
+            {
+              "id": "q185_o5",
+              "text": "Separate target values",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q185_o5",
+          "answer": "Separate target values",
+          "explanation": "A decision-tree split tries to create child nodes that separate target values more clearly than the parent node.",
+          "topicId": "decision_trees",
+          "correctAnswer": "Separate target values",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q186",
+          "category": "Decision trees and information gain",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the formula for entropy?",
+          "options": [
+            {
+              "id": "q186_o1",
+              "text": "Σ(p²)",
+              "isCorrect": false
+            },
+            {
+              "id": "q186_o2",
+              "text": "Σ(p)",
+              "isCorrect": false
+            },
+            {
+              "id": "q186_o3",
+              "text": "Σ|p|",
+              "isCorrect": false
+            },
+            {
+              "id": "q186_o4",
+              "text": "Σ(p³)",
+              "isCorrect": false
+            },
+            {
+              "id": "q186_o5",
+              "text": "-Σ p log p",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q186_o5",
+          "answer": "-Σ p log p",
+          "explanation": "Entropy is defined as -Σ p log p and measures impurity in a node.",
+          "topicId": "decision_trees",
+          "correctAnswer": "-Σ p log p",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q188",
+          "category": "Decision trees and information gain",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the practical effect of increasing min_samples_leaf?",
+          "options": [
+            {
+              "id": "q188_o1",
+              "text": "More memorization",
+              "isCorrect": false
+            },
+            {
+              "id": "q188_o2",
+              "text": "More leaves appear",
+              "isCorrect": false
+            },
+            {
+              "id": "q188_o3",
+              "text": "Training accuracy always rises",
+              "isCorrect": false
+            },
+            {
+              "id": "q188_o4",
+              "text": "Tree becomes deeper",
+              "isCorrect": false
+            },
+            {
+              "id": "q188_o5",
+              "text": "Leaves become larger",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q188_o5",
+          "answer": "Leaves become larger",
+          "explanation": "Increasing `min_samples_leaf` prevents tiny terminal nodes and usually makes the tree smoother and less prone to overfitting.",
+          "topicId": "decision_trees",
+          "correctAnswer": "Leaves become larger",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q238",
+          "category": "Decision trees and information gain",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "A fundamental topic in ML is bias, variance and their relationship with learning algorithms. High variance models typically pay a lot of attention to the training data and don't generalize well to unseen data. Low variance models focus on patterns that will later generalize well to unseen data. Which of the following algorithms can be considered high variance models?",
+          "options": [
+            {
+              "id": "q238_o1",
+              "text": "Decision tree",
+              "isCorrect": true
+            },
+            {
+              "id": "q238_o2",
+              "text": "Random Forest",
+              "isCorrect": false
+            },
+            {
+              "id": "q238_o3",
+              "text": "Support Vector Machine (SVM)",
+              "isCorrect": false
+            },
+            {
+              "id": "q238_o4",
+              "text": "Logistic regression",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q238_o1",
+          "answer": "Decision tree",
+          "explanation": "A single decision tree is a high-variance model because small data changes can produce a very different tree.",
+          "topicId": "decision_trees",
+          "correctAnswer": "Decision tree",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -3158,7 +4108,7 @@
       "order": 6,
       "title": "Train/test split, validation, and preprocessing",
       "description": "Train-test split, holdout sets, validation sets, hyperparameters, categorical data, one-hot encoding, polynomial features, and missing data.",
-      "questionCount": 25,
+      "questionCount": 29,
       "questionIds": [
         "q062",
         "q063",
@@ -3184,7 +4134,11 @@
         "q141",
         "q142",
         "q154",
-        "q155"
+        "q155",
+        "q184",
+        "q228",
+        "q231",
+        "q241"
       ],
       "questions": [
         {
@@ -4186,6 +5140,146 @@
           "topicId": "splitting_validation_preprocessing",
           "correctAnswer": "NMF works well",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q184",
+          "category": "Train/test split, validation, and preprocessing",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does hyperparameter tuning do?",
+          "options": [
+            {
+              "id": "q184_o1",
+              "text": "Optimizes parameters to improve the performance of a learning algorithm",
+              "isCorrect": true
+            },
+            {
+              "id": "q184_o2",
+              "text": "Expands the parameter set of a model to improve performance",
+              "isCorrect": false
+            },
+            {
+              "id": "q184_o3",
+              "text": "Takes parameter tuning so far that performance degrades",
+              "isCorrect": false
+            },
+            {
+              "id": "q184_o4",
+              "text": "Specifies the hyperplane that represents linear classifiers",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q184_o1",
+          "answer": "Optimizes parameters to improve the performance of a learning algorithm",
+          "explanation": "Hyperparameter tuning searches settings like max_depth or C that improve validation performance.",
+          "topicId": "splitting_validation_preprocessing",
+          "correctAnswer": "Optimizes parameters to improve the performance of a learning algorithm",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q228",
+          "category": "Train/test split, validation, and preprocessing",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Data used to optimize the parameter settings of a supervised learner model.",
+          "options": [
+            {
+              "id": "q228_o1",
+              "text": "Validation",
+              "isCorrect": true
+            },
+            {
+              "id": "q228_o2",
+              "text": "Training",
+              "isCorrect": false
+            },
+            {
+              "id": "q228_o3",
+              "text": "Verification",
+              "isCorrect": false
+            },
+            {
+              "id": "q228_o4",
+              "text": "Test",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q228_o1",
+          "answer": "Validation",
+          "explanation": "The validation set is used to tune parameter settings before the final test evaluation.",
+          "topicId": "splitting_validation_preprocessing",
+          "correctAnswer": "Validation",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q231",
+          "category": "Train/test split, validation, and preprocessing",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Data used to build a data mining model.",
+          "options": [
+            {
+              "id": "q231_o1",
+              "text": "Training data",
+              "isCorrect": true
+            },
+            {
+              "id": "q231_o2",
+              "text": "Validation data",
+              "isCorrect": false
+            },
+            {
+              "id": "q231_o3",
+              "text": "Hidden data",
+              "isCorrect": false
+            },
+            {
+              "id": "q231_o4",
+              "text": "Test data",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q231_o1",
+          "answer": "Training data",
+          "explanation": "Training data is the data used to fit the model parameters.",
+          "topicId": "splitting_validation_preprocessing",
+          "correctAnswer": "Training data",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q241",
+          "category": "Train/test split, validation, and preprocessing",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "For polynomial regression, which one of these structural assumptions is the one that most affects the trade-off between underfitting and overfitting:",
+          "options": [
+            {
+              "id": "q241_o1",
+              "text": "The polynomial degree",
+              "isCorrect": true
+            },
+            {
+              "id": "q241_o2",
+              "text": "Whether we learn the weights by matrix inversion or gradient descent",
+              "isCorrect": false
+            },
+            {
+              "id": "q241_o3",
+              "text": "The assumed variance of the Gaussian noise",
+              "isCorrect": false
+            },
+            {
+              "id": "q241_o4",
+              "text": "The use of a constant-term unit input",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q241_o1",
+          "answer": "The polynomial degree",
+          "explanation": "Polynomial degree controls model flexibility most directly, so it drives the underfitting/overfitting trade-off.",
+          "topicId": "splitting_validation_preprocessing",
+          "correctAnswer": "The polynomial degree",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -4199,12 +5293,15 @@
       "order": 7,
       "title": "Imbalanced data handling",
       "description": "Undersampling, oversampling, SMOTE, class weights, misleading accuracy, F1 and recall.",
-      "questionCount": 4,
+      "questionCount": 7,
       "questionIds": [
         "q082",
         "q083",
         "q084",
-        "q087"
+        "q087",
+        "q187",
+        "q189",
+        "q237"
       ],
       "questions": [
         {
@@ -4366,6 +5463,121 @@
           "topicId": "imbalanced_data",
           "correctAnswer": "Use F1 or recall",
           "correctOptionIndex": 4
+        },
+        {
+          "id": "q187",
+          "category": "Imbalanced data handling",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What would be better scoring for imbalanced classification?",
+          "options": [
+            {
+              "id": "q187_o1",
+              "text": "scoring='r2'",
+              "isCorrect": false
+            },
+            {
+              "id": "q187_o2",
+              "text": "scoring='neg_mean_squared_error'",
+              "isCorrect": false
+            },
+            {
+              "id": "q187_o3",
+              "text": "scoring='explained_variance'",
+              "isCorrect": false
+            },
+            {
+              "id": "q187_o4",
+              "text": "scoring='max_error'",
+              "isCorrect": false
+            },
+            {
+              "id": "q187_o5",
+              "text": "scoring='f1'",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q187_o5",
+          "answer": "scoring='f1'",
+          "explanation": "On imbalanced classification tasks, F1 is usually more informative than regression metrics because it balances precision and recall.",
+          "topicId": "imbalanced_data",
+          "correctAnswer": "scoring='f1'",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q189",
+          "category": "Imbalanced data handling",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What happens if recall is low?",
+          "options": [
+            {
+              "id": "q189_o1",
+              "text": "More false positives",
+              "isCorrect": false
+            },
+            {
+              "id": "q189_o2",
+              "text": "More true negatives",
+              "isCorrect": false
+            },
+            {
+              "id": "q189_o3",
+              "text": "Better accuracy",
+              "isCorrect": false
+            },
+            {
+              "id": "q189_o4",
+              "text": "Faster training",
+              "isCorrect": false
+            },
+            {
+              "id": "q189_o5",
+              "text": "Missed positives",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q189_o5",
+          "answer": "Missed positives",
+          "explanation": "Low recall means the model is missing many actual positive cases, which corresponds to more false negatives.",
+          "topicId": "imbalanced_data",
+          "correctAnswer": "Missed positives",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q237",
+          "category": "Imbalanced data handling",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Let's assume you are working with a severely imbalanced dataset. You want to split the data into 2 categories using a classification learning algorithm. Which of the following metrics should you avoid using when analysing the algorithm's performance?",
+          "options": [
+            {
+              "id": "q237_o1",
+              "text": "Accuracy",
+              "isCorrect": true
+            },
+            {
+              "id": "q237_o2",
+              "text": "Recall",
+              "isCorrect": false
+            },
+            {
+              "id": "q237_o3",
+              "text": "Precision",
+              "isCorrect": false
+            },
+            {
+              "id": "q237_o4",
+              "text": "F1-score",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q237_o1",
+          "answer": "Accuracy",
+          "explanation": "Accuracy can look deceptively high on severely imbalanced data even when the minority class is predicted poorly.",
+          "topicId": "imbalanced_data",
+          "correctAnswer": "Accuracy",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -4379,7 +5591,7 @@
       "order": 8,
       "title": "Ensemble learning: Random Forest, AdaBoost, Gradient Boosting",
       "description": "Bagging, feature randomness, boosting, learning rate, n_estimators, and overfitting risk.",
-      "questionCount": 22,
+      "questionCount": 23,
       "questionIds": [
         "q089",
         "q090",
@@ -4402,7 +5614,8 @@
         "q171",
         "q172",
         "q173",
-        "q174"
+        "q174",
+        "q197"
       ],
       "questions": [
         {
@@ -5259,6 +6472,46 @@
           "topicId": "ensembles",
           "correctAnswer": "Bagging trains models independently, boosting sequentially",
           "correctOptionIndex": 3
+        },
+        {
+          "id": "q197",
+          "category": "Ensemble learning: Random Forest, AdaBoost, Gradient Boosting",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the main benefit of Random Forest?",
+          "options": [
+            {
+              "id": "q197_o1",
+              "text": "Removes features",
+              "isCorrect": false
+            },
+            {
+              "id": "q197_o2",
+              "text": "Reduces dataset",
+              "isCorrect": false
+            },
+            {
+              "id": "q197_o3",
+              "text": "Speeds up scaling",
+              "isCorrect": false
+            },
+            {
+              "id": "q197_o4",
+              "text": "Encodes data",
+              "isCorrect": false
+            },
+            {
+              "id": "q197_o5",
+              "text": "Reduces overfitting",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q197_o5",
+          "answer": "Reduces overfitting",
+          "explanation": "Random Forest averages many de-correlated trees, which reduces variance and helps control overfitting.",
+          "topicId": "ensembles",
+          "correctAnswer": "Reduces overfitting",
+          "correctOptionIndex": 4
         }
       ],
       "studyTips": [
@@ -5272,7 +6525,7 @@
       "order": 9,
       "title": "Unsupervised learning and KMeans",
       "description": "Clustering goals, KMeans, scaling, centroids, distribution shift, silhouette score, outliers, and anomaly distances.",
-      "questionCount": 14,
+      "questionCount": 34,
       "questionIds": [
         "q107",
         "q108",
@@ -5287,7 +6540,27 @@
         "q117",
         "q118",
         "q119",
-        "q158"
+        "q158",
+        "q190",
+        "q191",
+        "q192",
+        "q198",
+        "q204",
+        "q205",
+        "q206",
+        "q207",
+        "q208",
+        "q209",
+        "q211",
+        "q212",
+        "q213",
+        "q214",
+        "q215",
+        "q216",
+        "q217",
+        "q218",
+        "q224",
+        "q225"
       ],
       "questions": [
         {
@@ -5844,6 +7117,721 @@
           "topicId": "clustering_kmeans",
           "correctAnswer": "Maximizing average silhouette score",
           "correctOptionIndex": 3
+        },
+        {
+          "id": "q190",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is inertia in KMeans?",
+          "options": [
+            {
+              "id": "q190_o1",
+              "text": "Model accuracy",
+              "isCorrect": false
+            },
+            {
+              "id": "q190_o2",
+              "text": "Cluster count",
+              "isCorrect": false
+            },
+            {
+              "id": "q190_o3",
+              "text": "Feature importance",
+              "isCorrect": false
+            },
+            {
+              "id": "q190_o4",
+              "text": "Training time",
+              "isCorrect": false
+            },
+            {
+              "id": "q190_o5",
+              "text": "Sum of squared distances",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q190_o5",
+          "answer": "Sum of squared distances",
+          "explanation": "KMeans inertia is the within-cluster sum of squared distances from points to their assigned centroids.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Sum of squared distances",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q191",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "You choose K using elbow method, but the curve is smooth with no clear elbow. What should you do?",
+          "options": [
+            {
+              "id": "q191_o1",
+              "text": "Always pick K=2",
+              "isCorrect": false
+            },
+            {
+              "id": "q191_o2",
+              "text": "Increase dataset size",
+              "isCorrect": false
+            },
+            {
+              "id": "q191_o3",
+              "text": "Remove features",
+              "isCorrect": false
+            },
+            {
+              "id": "q191_o4",
+              "text": "Stop clustering",
+              "isCorrect": false
+            },
+            {
+              "id": "q191_o5",
+              "text": "Use other metrics like silhouette",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q191_o5",
+          "answer": "Use other metrics like silhouette",
+          "explanation": "If the elbow is unclear, the elbow method is inconclusive, so another metric such as silhouette score is a better guide.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Use other metrics like silhouette",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q192",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "You scale data and run KMeans. Then someone suggests removing scaling because “units are meaningful”. What is the correct reasoning?",
+          "options": [
+            {
+              "id": "q192_o1",
+              "text": "Scaling always improves clustering",
+              "isCorrect": false
+            },
+            {
+              "id": "q192_o2",
+              "text": "KMeans ignores units",
+              "isCorrect": false
+            },
+            {
+              "id": "q192_o3",
+              "text": "Units do not matter",
+              "isCorrect": false
+            },
+            {
+              "id": "q192_o4",
+              "text": "Scaling removes patterns",
+              "isCorrect": false
+            },
+            {
+              "id": "q192_o5",
+              "text": "Scaling choice depends on distance meaning",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q192_o5",
+          "answer": "Scaling choice depends on distance meaning",
+          "explanation": "Because KMeans is distance-based, scaling should depend on whether the feature units should influence distance.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Scaling choice depends on distance meaning",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q198",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is a cluster prototype?",
+          "options": [
+            {
+              "id": "q198_o1",
+              "text": "A representative object of a cluster",
+              "isCorrect": true
+            },
+            {
+              "id": "q198_o2",
+              "text": "A random data point",
+              "isCorrect": false
+            },
+            {
+              "id": "q198_o3",
+              "text": "A labeled example",
+              "isCorrect": false
+            },
+            {
+              "id": "q198_o4",
+              "text": "A noise point",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q198_o1",
+          "answer": "A representative object of a cluster",
+          "explanation": "A cluster prototype is a representative object or summary point for a cluster.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "A representative object of a cluster",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q204",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What happens after assigning points to clusters?",
+          "options": [
+            {
+              "id": "q204_o1",
+              "text": "Centroids are updated",
+              "isCorrect": true
+            },
+            {
+              "id": "q204_o2",
+              "text": "Algorithm stops",
+              "isCorrect": false
+            },
+            {
+              "id": "q204_o3",
+              "text": "Clusters are deleted",
+              "isCorrect": false
+            },
+            {
+              "id": "q204_o4",
+              "text": "Noise is removed",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q204_o1",
+          "answer": "Centroids are updated",
+          "explanation": "After assigning points to the nearest clusters, KMeans recomputes centroids as the mean of the assigned points.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Centroids are updated",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q205",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Which distance is commonly used in K-means?",
+          "options": [
+            {
+              "id": "q205_o1",
+              "text": "Euclidean distance",
+              "isCorrect": true
+            },
+            {
+              "id": "q205_o2",
+              "text": "Hamming distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q205_o3",
+              "text": "Cosine similarity",
+              "isCorrect": false
+            },
+            {
+              "id": "q205_o4",
+              "text": "Jaccard index",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q205_o1",
+          "answer": "Euclidean distance",
+          "explanation": "Standard KMeans is based on Euclidean distance.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Euclidean distance",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q206",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the complexity of K-means dependent on?",
+          "options": [
+            {
+              "id": "q206_o1",
+              "text": "Number of points, clusters, and iterations",
+              "isCorrect": true
+            },
+            {
+              "id": "q206_o2",
+              "text": "Only number of features",
+              "isCorrect": false
+            },
+            {
+              "id": "q206_o3",
+              "text": "Only number of clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q206_o4",
+              "text": "Only iterations",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q206_o1",
+          "answer": "Number of points, clusters, and iterations",
+          "explanation": "The time cost of KMeans grows with the number of points, clusters, and iterations it must process.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Number of points, clusters, and iterations",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q207",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What happens if K is chosen incorrectly?",
+          "options": [
+            {
+              "id": "q207_o1",
+              "text": "Poor clustering results",
+              "isCorrect": true
+            },
+            {
+              "id": "q207_o2",
+              "text": "Algorithm crashes",
+              "isCorrect": false
+            },
+            {
+              "id": "q207_o3",
+              "text": "No output",
+              "isCorrect": false
+            },
+            {
+              "id": "q207_o4",
+              "text": "Faster convergence",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q207_o1",
+          "answer": "Poor clustering results",
+          "explanation": "If K is too small or too large, the partition will not match the underlying structure well.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Poor clustering results",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q208",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "K-means assumes clusters are:",
+          "options": [
+            {
+              "id": "q208_o1",
+              "text": "Globular (spherical)",
+              "isCorrect": true
+            },
+            {
+              "id": "q208_o2",
+              "text": "Linear",
+              "isCorrect": false
+            },
+            {
+              "id": "q208_o3",
+              "text": "Random",
+              "isCorrect": false
+            },
+            {
+              "id": "q208_o4",
+              "text": "Disconnected",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q208_o1",
+          "answer": "Globular (spherical)",
+          "explanation": "KMeans works best when clusters are roughly spherical around their centroids.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Globular (spherical)",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q209",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is a major weakness of K-means:",
+          "options": [
+            {
+              "id": "q209_o1",
+              "text": "Sensitive to initial centroids",
+              "isCorrect": true
+            },
+            {
+              "id": "q209_o2",
+              "text": "Works only with text",
+              "isCorrect": false
+            },
+            {
+              "id": "q209_o3",
+              "text": "Needs labels",
+              "isCorrect": false
+            },
+            {
+              "id": "q209_o4",
+              "text": "Cannot scale",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q209_o1",
+          "answer": "Sensitive to initial centroids",
+          "explanation": "Because KMeans starts from initial centroids, different initializations can lead to different local optima.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Sensitive to initial centroids",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q211",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the stopping condition in K-means?",
+          "options": [
+            {
+              "id": "q211_o1",
+              "text": "Centroids do not change significantly",
+              "isCorrect": true
+            },
+            {
+              "id": "q211_o2",
+              "text": "All data removed",
+              "isCorrect": false
+            },
+            {
+              "id": "q211_o3",
+              "text": "Maximum clusters reached",
+              "isCorrect": false
+            },
+            {
+              "id": "q211_o4",
+              "text": "Distance is zero",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q211_o1",
+          "answer": "Centroids do not change significantly",
+          "explanation": "KMeans typically stops when centroid locations or cluster assignments stop changing meaningfully.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Centroids do not change significantly",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q212",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the first step in K-means algorithm?",
+          "options": [
+            {
+              "id": "q212_o1",
+              "text": "Initialize centroids",
+              "isCorrect": true
+            },
+            {
+              "id": "q212_o2",
+              "text": "Assign clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q212_o3",
+              "text": "Compute distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q212_o4",
+              "text": "Update centroids",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q212_o1",
+          "answer": "Initialize centroids",
+          "explanation": "The first step in KMeans is to initialize cluster centroids.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Initialize centroids",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q213",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is a centroid ?",
+          "options": [
+            {
+              "id": "q213_o1",
+              "text": "Mean point of a cluster",
+              "isCorrect": true
+            },
+            {
+              "id": "q213_o2",
+              "text": "Random point",
+              "isCorrect": false
+            },
+            {
+              "id": "q213_o3",
+              "text": "Outlier",
+              "isCorrect": false
+            },
+            {
+              "id": "q213_o4",
+              "text": "Noise point",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q213_o1",
+          "answer": "Mean point of a cluster",
+          "explanation": "A centroid is the mean location of the points assigned to a cluster.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Mean point of a cluster",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q214",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "K-means is sensitive to:",
+          "options": [
+            {
+              "id": "q214_o1",
+              "text": "Outliers",
+              "isCorrect": true
+            },
+            {
+              "id": "q214_o2",
+              "text": "File size",
+              "isCorrect": false
+            },
+            {
+              "id": "q214_o3",
+              "text": "Variable names",
+              "isCorrect": false
+            },
+            {
+              "id": "q214_o4",
+              "text": "Programming language",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q214_o1",
+          "answer": "Outliers",
+          "explanation": "Outliers can pull centroids away from dense regions, so KMeans is sensitive to them.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Outliers",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q215",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "K-means mainly works with which type of data?",
+          "options": [
+            {
+              "id": "q215_o1",
+              "text": "Numeric data",
+              "isCorrect": true
+            },
+            {
+              "id": "q215_o2",
+              "text": "Text data",
+              "isCorrect": false
+            },
+            {
+              "id": "q215_o3",
+              "text": "Image labels",
+              "isCorrect": false
+            },
+            {
+              "id": "q215_o4",
+              "text": "Ordinal rank data",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q215_o1",
+          "answer": "Numeric data",
+          "explanation": "KMeans relies on numeric distance calculations, so it mainly works with numeric feature vectors.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Numeric data",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q216",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does K in K-means represent?",
+          "options": [
+            {
+              "id": "q216_o1",
+              "text": "Number of clusters",
+              "isCorrect": true
+            },
+            {
+              "id": "q216_o2",
+              "text": "Number of features",
+              "isCorrect": false
+            },
+            {
+              "id": "q216_o3",
+              "text": "Number of iterations",
+              "isCorrect": false
+            },
+            {
+              "id": "q216_o4",
+              "text": "Number of samples",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q216_o1",
+          "answer": "Number of clusters",
+          "explanation": "In KMeans, K is the number of clusters the algorithm should form.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Number of clusters",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q217",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is vector quantization in clustering?",
+          "options": [
+            {
+              "id": "q217_o1",
+              "text": "A way to compress data using cluster prototypes",
+              "isCorrect": true
+            },
+            {
+              "id": "q217_o2",
+              "text": "A method for classification",
+              "isCorrect": false
+            },
+            {
+              "id": "q217_o3",
+              "text": "A distance metric",
+              "isCorrect": false
+            },
+            {
+              "id": "q217_o4",
+              "text": "A clustering algorithm",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q217_o1",
+          "answer": "A way to compress data using cluster prototypes",
+          "explanation": "Vector quantization compresses data by replacing points with representative cluster prototypes.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "A way to compress data using cluster prototypes",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q218",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is the main limitation of K-means clustering?",
+          "options": [
+            {
+              "id": "q218_o1",
+              "text": "It requires the number of clusters (K) beforehand",
+              "isCorrect": true
+            },
+            {
+              "id": "q218_o2",
+              "text": "It detects noise automatically",
+              "isCorrect": false
+            },
+            {
+              "id": "q218_o3",
+              "text": "It works only with categorical data",
+              "isCorrect": false
+            },
+            {
+              "id": "q218_o4",
+              "text": "It produces hierarchical clusters",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q218_o1",
+          "answer": "It requires the number of clusters (K) beforehand",
+          "explanation": "Classic KMeans requires you to choose the number of clusters before fitting the algorithm.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "It requires the number of clusters (K) beforehand",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q224",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What type of clustering is K-means?",
+          "options": [
+            {
+              "id": "q224_o1",
+              "text": "Prototype-based clustering",
+              "isCorrect": true
+            },
+            {
+              "id": "q224_o2",
+              "text": "Hierarchical clustering",
+              "isCorrect": false
+            },
+            {
+              "id": "q224_o3",
+              "text": "Density-based clustering",
+              "isCorrect": false
+            },
+            {
+              "id": "q224_o4",
+              "text": "Graph-based clustering",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q224_o1",
+          "answer": "Prototype-based clustering",
+          "explanation": "KMeans is prototype-based because each cluster is represented by a centroid prototype.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Prototype-based clustering",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q225",
+          "category": "Unsupervised learning and KMeans",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "How are points assigned to clusters?",
+          "options": [
+            {
+              "id": "q225_o1",
+              "text": "Based on nearest centroid",
+              "isCorrect": true
+            },
+            {
+              "id": "q225_o2",
+              "text": "Random assignment",
+              "isCorrect": false
+            },
+            {
+              "id": "q225_o3",
+              "text": "Largest distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q225_o4",
+              "text": "Based on feature names",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q225_o1",
+          "answer": "Based on nearest centroid",
+          "explanation": "Each point is assigned to the cluster with the nearest centroid.",
+          "topicId": "clustering_kmeans",
+          "correctAnswer": "Based on nearest centroid",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -5857,7 +7845,7 @@
       "order": 10,
       "title": "DBSCAN density-based clustering",
       "description": "eps, min_samples, noise label -1, no predict method, silhouette issues, and cluster counting.",
-      "questionCount": 11,
+      "questionCount": 13,
       "questionIds": [
         "q120",
         "q121",
@@ -5869,7 +7857,9 @@
         "q127",
         "q128",
         "q162",
-        "q164"
+        "q164",
+        "q219",
+        "q220"
       ],
       "questions": [
         {
@@ -6301,6 +8291,76 @@
           "topicId": "clustering_dbscan",
           "correctAnswer": "Point with at least MinPts neighbors",
           "correctOptionIndex": 3
+        },
+        {
+          "id": "q219",
+          "category": "DBSCAN density-based clustering",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Which definition best describes density-based clusters?",
+          "options": [
+            {
+              "id": "q219_o1",
+              "text": "Dense regions separated by low-density areas",
+              "isCorrect": true
+            },
+            {
+              "id": "q219_o2",
+              "text": "Objects connected in a graph",
+              "isCorrect": false
+            },
+            {
+              "id": "q219_o3",
+              "text": "Objects closest to a centroid",
+              "isCorrect": false
+            },
+            {
+              "id": "q219_o4",
+              "text": "Objects sharing labels",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q219_o1",
+          "answer": "Dense regions separated by low-density areas",
+          "explanation": "Density-based clusters are dense regions separated by sparse areas.",
+          "topicId": "clustering_dbscan",
+          "correctAnswer": "Dense regions separated by low-density areas",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q220",
+          "category": "DBSCAN density-based clustering",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is a key feature of DBSCAN?",
+          "options": [
+            {
+              "id": "q220_o1",
+              "text": "Detects clusters based on density and identifies noise",
+              "isCorrect": true
+            },
+            {
+              "id": "q220_o2",
+              "text": "Requires predefined number of clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q220_o3",
+              "text": "Uses centroids",
+              "isCorrect": false
+            },
+            {
+              "id": "q220_o4",
+              "text": "Works only with labeled data",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q220_o1",
+          "answer": "Detects clusters based on density and identifies noise",
+          "explanation": "DBSCAN finds clusters from density and can also mark isolated points as noise.",
+          "topicId": "clustering_dbscan",
+          "correctAnswer": "Detects clusters based on density and identifies noise",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -6314,13 +8374,25 @@
       "order": 11,
       "title": "Hierarchical clustering and silhouette basics",
       "description": "Linkage, dendrograms, fcluster, distance thresholds, single linkage, silhouette method, agglomerative complexity.",
-      "questionCount": 5,
+      "questionCount": 17,
       "questionIds": [
         "q129",
         "q130",
         "q131",
         "q134",
-        "q159"
+        "q159",
+        "q193",
+        "q194",
+        "q199",
+        "q200",
+        "q201",
+        "q202",
+        "q203",
+        "q210",
+        "q221",
+        "q222",
+        "q223",
+        "q239"
       ],
       "questions": [
         {
@@ -6517,6 +8589,436 @@
           "topicId": "hierarchical_clustering",
           "correctAnswer": "O(n^3)",
           "correctOptionIndex": 3
+        },
+        {
+          "id": "q193",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What happens if distance threshold is very large?",
+          "options": [
+            {
+              "id": "q193_o1",
+              "text": "Many clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q193_o2",
+              "text": "No clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q193_o3",
+              "text": "Data split",
+              "isCorrect": false
+            },
+            {
+              "id": "q193_o4",
+              "text": "Faster model",
+              "isCorrect": false
+            },
+            {
+              "id": "q193_o5",
+              "text": "Few clusters",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q193_o5",
+          "answer": "Few clusters",
+          "explanation": "A larger distance threshold allows more merges, so you end up with fewer final clusters.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Few clusters",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q194",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "You compare ward vs complete linkage. What differs most?",
+          "options": [
+            {
+              "id": "q194_o1",
+              "text": "Feature count",
+              "isCorrect": false
+            },
+            {
+              "id": "q194_o2",
+              "text": "Dataset size",
+              "isCorrect": false
+            },
+            {
+              "id": "q194_o3",
+              "text": "Labels",
+              "isCorrect": false
+            },
+            {
+              "id": "q194_o4",
+              "text": "Scaling",
+              "isCorrect": false
+            },
+            {
+              "id": "q194_o5",
+              "text": "Cluster shape",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q194_o5",
+          "answer": "Cluster shape",
+          "explanation": "Ward and complete linkage often differ most in the shapes of clusters they tend to create.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Cluster shape",
+          "correctOptionIndex": 4
+        },
+        {
+          "id": "q199",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is complete linkage?",
+          "options": [
+            {
+              "id": "q199_o1",
+              "text": "Distance between farthest points of clusters",
+              "isCorrect": true
+            },
+            {
+              "id": "q199_o2",
+              "text": "Closest points",
+              "isCorrect": false
+            },
+            {
+              "id": "q199_o3",
+              "text": "Average points",
+              "isCorrect": false
+            },
+            {
+              "id": "q199_o4",
+              "text": "Centroids",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q199_o1",
+          "answer": "Distance between farthest points of clusters",
+          "explanation": "Complete linkage defines inter-cluster distance using the farthest pair of points across the two clusters.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Distance between farthest points of clusters",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q200",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is single linkage?",
+          "options": [
+            {
+              "id": "q200_o1",
+              "text": "Distance between closest points of clusters",
+              "isCorrect": true
+            },
+            {
+              "id": "q200_o2",
+              "text": "Distance between centroids",
+              "isCorrect": false
+            },
+            {
+              "id": "q200_o3",
+              "text": "Average distance",
+              "isCorrect": false
+            },
+            {
+              "id": "q200_o4",
+              "text": "Farthest distance",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q200_o1",
+          "answer": "Distance between closest points of clusters",
+          "explanation": "Single linkage defines inter-cluster distance using the closest pair of points across the two clusters.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Distance between closest points of clusters",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q201",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is divisive clustering?",
+          "options": [
+            {
+              "id": "q201_o1",
+              "text": "Splitting one cluster into many",
+              "isCorrect": true
+            },
+            {
+              "id": "q201_o2",
+              "text": "Merging clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q201_o3",
+              "text": "Removing noise",
+              "isCorrect": false
+            },
+            {
+              "id": "q201_o4",
+              "text": "Optimizing SSE",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q201_o1",
+          "answer": "Splitting one cluster into many",
+          "explanation": "Divisive clustering starts with one large cluster and repeatedly splits it into smaller ones.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Splitting one cluster into many",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q202",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does silhouette coefficient measure?",
+          "options": [
+            {
+              "id": "q202_o1",
+              "text": "Quality of clustering",
+              "isCorrect": true
+            },
+            {
+              "id": "q202_o2",
+              "text": "Cluster size",
+              "isCorrect": false
+            },
+            {
+              "id": "q202_o3",
+              "text": "Distance matrix",
+              "isCorrect": false
+            },
+            {
+              "id": "q202_o4",
+              "text": "Number of clusters",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q202_o1",
+          "answer": "Quality of clustering",
+          "explanation": "The silhouette coefficient measures how well points fit their own cluster compared with neighboring clusters.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Quality of clustering",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q203",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Which method is more complex to implement?",
+          "options": [
+            {
+              "id": "q203_o1",
+              "text": "Divisive clustering",
+              "isCorrect": true
+            },
+            {
+              "id": "q203_o2",
+              "text": "Agglomerative clustering",
+              "isCorrect": false
+            },
+            {
+              "id": "q203_o3",
+              "text": "K-means",
+              "isCorrect": false
+            },
+            {
+              "id": "q203_o4",
+              "text": "DBSCAN",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q203_o1",
+          "answer": "Divisive clustering",
+          "explanation": "Divisive clustering is typically harder to implement because it requires repeated splitting decisions.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Divisive clustering",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q210",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "In agglomerative hierarchical clustering, what is the initial step?",
+          "options": [
+            {
+              "id": "q210_o1",
+              "text": "Each object is its own cluster",
+              "isCorrect": true
+            },
+            {
+              "id": "q210_o2",
+              "text": "Start with one cluster",
+              "isCorrect": false
+            },
+            {
+              "id": "q210_o3",
+              "text": "Start with random clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q210_o4",
+              "text": "Use centroids immediately",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q210_o1",
+          "answer": "Each object is its own cluster",
+          "explanation": "Agglomerative clustering begins with each sample as its own cluster and then merges them step by step.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Each object is its own cluster",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q221",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is a limitation of agglomerative clustering?",
+          "options": [
+            {
+              "id": "q221_o1",
+              "text": "Cannot revise earlier decisions",
+              "isCorrect": true
+            },
+            {
+              "id": "q221_o2",
+              "text": "Needs labels",
+              "isCorrect": false
+            },
+            {
+              "id": "q221_o3",
+              "text": "Too fast",
+              "isCorrect": false
+            },
+            {
+              "id": "q221_o4",
+              "text": "Works only on text",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q221_o1",
+          "answer": "Cannot revise earlier decisions",
+          "explanation": "Once agglomerative clustering merges two clusters, that earlier decision cannot be undone.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Cannot revise earlier decisions",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q222",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What does Ward's method minimize?",
+          "options": [
+            {
+              "id": "q222_o1",
+              "text": "Sum of squared distances",
+              "isCorrect": true
+            },
+            {
+              "id": "q222_o2",
+              "text": "Cluster count",
+              "isCorrect": false
+            },
+            {
+              "id": "q222_o3",
+              "text": "Distance matrix",
+              "isCorrect": false
+            },
+            {
+              "id": "q222_o4",
+              "text": "Noise",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q222_o1",
+          "answer": "Sum of squared distances",
+          "explanation": "Ward's method chooses merges that minimize the increase in within-cluster sum of squares.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Sum of squared distances",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q223",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What is hierarchical clustering?",
+          "options": [
+            {
+              "id": "q223_o1",
+              "text": "Clustering with nested groups forming a tree",
+              "isCorrect": true
+            },
+            {
+              "id": "q223_o2",
+              "text": "Flat clustering without structure",
+              "isCorrect": false
+            },
+            {
+              "id": "q223_o3",
+              "text": "Random grouping",
+              "isCorrect": false
+            },
+            {
+              "id": "q223_o4",
+              "text": "Density-based clustering",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q223_o1",
+          "answer": "Clustering with nested groups forming a tree",
+          "explanation": "Hierarchical clustering builds a nested tree of groups rather than just one flat partition.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Clustering with nested groups forming a tree",
+          "correctOptionIndex": 0
+        },
+        {
+          "id": "q239",
+          "category": "Hierarchical clustering and silhouette basics",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "Agglomerative clustering repeatedly merges ____",
+          "options": [
+            {
+              "id": "q239_o1",
+              "text": "Clusters with lowest distance",
+              "isCorrect": true
+            },
+            {
+              "id": "q239_o2",
+              "text": "Standard-scaled clusters",
+              "isCorrect": false
+            },
+            {
+              "id": "q239_o3",
+              "text": "Clusters with highest accuracy",
+              "isCorrect": false
+            },
+            {
+              "id": "q239_o4",
+              "text": "Clusters with lowest variance",
+              "isCorrect": false
+            }
+          ],
+          "correctOptionId": "q239_o1",
+          "answer": "Clusters with lowest distance",
+          "explanation": "Agglomerative clustering repeatedly merges the closest clusters according to its linkage rule.",
+          "topicId": "hierarchical_clustering",
+          "correctAnswer": "Clusters with lowest distance",
+          "correctOptionIndex": 0
         }
       ],
       "studyTips": [
@@ -6987,14 +9489,15 @@
       "order": 13,
       "title": "LDA and SVD",
       "description": "LDA vs PCA, class separation, covariance, singular values, TruncatedSVD, and pipeline order.",
-      "questionCount": 6,
+      "questionCount": 7,
       "questionIds": [
         "q147",
         "q148",
         "q149",
         "q150",
         "q161",
-        "q165"
+        "q165",
+        "q195"
       ],
       "questions": [
         {
@@ -7226,6 +9729,46 @@
           "topicId": "lda_svd",
           "correctAnswer": "Reduced feature matrix factorization",
           "correctOptionIndex": 3
+        },
+        {
+          "id": "q195",
+          "category": "LDA and SVD",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "What happens if LDA is applied without labels?",
+          "options": [
+            {
+              "id": "q195_o1",
+              "text": "Works like PCA",
+              "isCorrect": false
+            },
+            {
+              "id": "q195_o2",
+              "text": "Clusters data",
+              "isCorrect": false
+            },
+            {
+              "id": "q195_o3",
+              "text": "Removes noise",
+              "isCorrect": false
+            },
+            {
+              "id": "q195_o4",
+              "text": "Scales features",
+              "isCorrect": false
+            },
+            {
+              "id": "q195_o5",
+              "text": "Cannot be applied",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q195_o5",
+          "answer": "Cannot be applied",
+          "explanation": "LDA is a supervised dimensionality-reduction method, so it cannot be fit without class labels.",
+          "topicId": "lda_svd",
+          "correctAnswer": "Cannot be applied",
+          "correctOptionIndex": 4
         }
       ],
       "studyTips": [
@@ -7239,7 +9782,7 @@
       "order": 14,
       "title": "NMF: Nonnegative Matrix Factorization",
       "description": "Non-negative constraint, factorization, reconstruction, sparse data, MinMaxScaler, and information loss.",
-      "questionCount": 9,
+      "questionCount": 10,
       "questionIds": [
         "q151",
         "q152",
@@ -7249,7 +9792,8 @@
         "q166",
         "q167",
         "q168",
-        "q169"
+        "q169",
+        "q196"
       ],
       "questions": [
         {
@@ -7591,6 +10135,46 @@
           "topicId": "nmf",
           "correctAnswer": "Alternating minimization",
           "correctOptionIndex": 3
+        },
+        {
+          "id": "q196",
+          "category": "NMF: Nonnegative Matrix Factorization",
+          "type": "single_choice",
+          "difficulty": "exam_practice",
+          "prompt": "You increase n_components and reconstruction error decreases. What does this mean?",
+          "options": [
+            {
+              "id": "q196_o1",
+              "text": "Model overfits immediately",
+              "isCorrect": false
+            },
+            {
+              "id": "q196_o2",
+              "text": "Data is invalid",
+              "isCorrect": false
+            },
+            {
+              "id": "q196_o3",
+              "text": "No learning",
+              "isCorrect": false
+            },
+            {
+              "id": "q196_o4",
+              "text": "Components useless",
+              "isCorrect": false
+            },
+            {
+              "id": "q196_o5",
+              "text": "Better approximation",
+              "isCorrect": true
+            }
+          ],
+          "correctOptionId": "q196_o5",
+          "answer": "Better approximation",
+          "explanation": "Adding more NMF components usually allows a closer reconstruction of the original matrix, which lowers reconstruction error.",
+          "topicId": "nmf",
+          "correctAnswer": "Better approximation",
+          "correctOptionIndex": 4
         }
       ],
       "studyTips": [
@@ -21815,6 +24399,2456 @@
       "topicId": "ensembles",
       "correctAnswer": "Bagging trains models independently, boosting sequentially",
       "correctOptionIndex": 3
+    },
+    {
+      "id": "q175",
+      "category": "k-NN and distance-based classification",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "In K-NN:",
+      "options": [
+        {
+          "id": "q175_o1",
+          "text": "A higher value of the K parameter => higher confidence",
+          "isCorrect": false
+        },
+        {
+          "id": "q175_o2",
+          "text": "A higher value of the K parameter => lower confidence",
+          "isCorrect": false
+        },
+        {
+          "id": "q175_o3",
+          "text": "Higher distance to k nearest instances => higher confidence",
+          "isCorrect": false
+        },
+        {
+          "id": "q175_o4",
+          "text": "Higher distance to k nearest instances => lower confidence",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q175_o4",
+      "answer": "Higher distance to k nearest instances => lower confidence",
+      "explanation": "In k-NN, greater distance from the nearest neighbors means the local evidence is weaker, so the prediction is less confident.",
+      "topicId": "knn",
+      "correctAnswer": "Higher distance to k nearest instances => lower confidence",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q176",
+      "category": "Regression and cross-validation",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does this code return? scores = cross_val_score(model, X, y, cv=5, scoring='r2')",
+      "options": [
+        {
+          "id": "q176_o1",
+          "text": "One final trained model",
+          "isCorrect": false
+        },
+        {
+          "id": "q176_o2",
+          "text": "Predicted target values",
+          "isCorrect": false
+        },
+        {
+          "id": "q176_o3",
+          "text": "Model coefficients",
+          "isCorrect": false
+        },
+        {
+          "id": "q176_o4",
+          "text": "Feature names",
+          "isCorrect": false
+        },
+        {
+          "id": "q176_o5",
+          "text": "R² scores for folds",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q176_o5",
+      "answer": "R² scores for folds",
+      "explanation": "cross_val_score with scoring='r2' returns one R² score for each fold, not a trained model.",
+      "topicId": "regression_cv",
+      "correctAnswer": "R² scores for folds",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q177",
+      "category": "Regression and cross-validation",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "You increase training data size significantly. What is expected?",
+      "options": [
+        {
+          "id": "q177_o1",
+          "text": "Model becomes random",
+          "isCorrect": false
+        },
+        {
+          "id": "q177_o2",
+          "text": "Features vanish",
+          "isCorrect": false
+        },
+        {
+          "id": "q177_o3",
+          "text": "Error always increases",
+          "isCorrect": false
+        },
+        {
+          "id": "q177_o4",
+          "text": "No effect",
+          "isCorrect": false
+        },
+        {
+          "id": "q177_o5",
+          "text": "Better generalization",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q177_o5",
+      "answer": "Better generalization",
+      "explanation": "With more representative training data, models usually generalize better because they see a broader sample of the true pattern.",
+      "topicId": "regression_cv",
+      "correctAnswer": "Better generalization",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q178",
+      "category": "Regularization: Ridge, LASSO, Elastic Net",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Which formula represents LASSO regression loss?",
+      "options": [
+        {
+          "id": "q178_o1",
+          "text": "MSE + λ Σw²",
+          "isCorrect": false
+        },
+        {
+          "id": "q178_o2",
+          "text": "MSE − λ Σ|w|",
+          "isCorrect": false
+        },
+        {
+          "id": "q178_o3",
+          "text": "MSE × Σw",
+          "isCorrect": false
+        },
+        {
+          "id": "q178_o4",
+          "text": "MSE + Σw²",
+          "isCorrect": false
+        },
+        {
+          "id": "q178_o5",
+          "text": "MSE + λ Σ|w|",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q178_o5",
+      "answer": "MSE + λ Σ|w|",
+      "explanation": "LASSO adds an L1 penalty, so its objective is MSE plus lambda times the sum of absolute coefficient values.",
+      "topicId": "regularization",
+      "correctAnswer": "MSE + λ Σ|w|",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q179",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Given precision=0.5 and recall=0.5, what is F1-score?",
+      "options": [
+        {
+          "id": "q179_o1",
+          "text": "0.25",
+          "isCorrect": false
+        },
+        {
+          "id": "q179_o2",
+          "text": "0.40",
+          "isCorrect": false
+        },
+        {
+          "id": "q179_o3",
+          "text": "0.45",
+          "isCorrect": false
+        },
+        {
+          "id": "q179_o4",
+          "text": "0.60",
+          "isCorrect": false
+        },
+        {
+          "id": "q179_o5",
+          "text": "0.50",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q179_o5",
+      "answer": "0.50",
+      "explanation": "When precision and recall are both 0.5, their harmonic mean is also 0.5.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "0.50",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q180",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What happens when threshold decreases?",
+      "options": [
+        {
+          "id": "q180_o1",
+          "text": "Fewer positives",
+          "isCorrect": false
+        },
+        {
+          "id": "q180_o2",
+          "text": "No effect",
+          "isCorrect": false
+        },
+        {
+          "id": "q180_o3",
+          "text": "Only negatives",
+          "isCorrect": false
+        },
+        {
+          "id": "q180_o4",
+          "text": "Model stops",
+          "isCorrect": false
+        },
+        {
+          "id": "q180_o5",
+          "text": "More positives predicted",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q180_o5",
+      "answer": "More positives predicted",
+      "explanation": "Lowering the classification threshold makes it easier to predict the positive class, so more samples are labeled positive.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "More positives predicted",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q181",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Given confusion matrix [[50,10],[5,35]], what is precision?",
+      "options": [
+        {
+          "id": "q181_o1",
+          "text": "0.75",
+          "isCorrect": false
+        },
+        {
+          "id": "q181_o2",
+          "text": "0.78",
+          "isCorrect": false
+        },
+        {
+          "id": "q181_o3",
+          "text": "0.80",
+          "isCorrect": false
+        },
+        {
+          "id": "q181_o4",
+          "text": "0.82",
+          "isCorrect": false
+        },
+        {
+          "id": "q181_o5",
+          "text": "0.83",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q181_o5",
+      "answer": "0.83",
+      "explanation": "Using the exam's confusion-matrix convention, precision is 50 / (50 + 10) = 0.83.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "0.83",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q182",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is wrong in this multi-class code? model = LogisticRegression() model.fit(X_train, y_train) y_pred = model.predict_proba(X_test)[:,1]",
+      "options": [
+        {
+          "id": "q182_o1",
+          "text": "predict_proba cannot be used",
+          "isCorrect": false
+        },
+        {
+          "id": "q182_o2",
+          "text": "y_train must be binary",
+          "isCorrect": false
+        },
+        {
+          "id": "q182_o3",
+          "text": "[:,1] selects wrong dimension always",
+          "isCorrect": false
+        },
+        {
+          "id": "q182_o4",
+          "text": "LogisticRegression cannot do multi-class",
+          "isCorrect": false
+        },
+        {
+          "id": "q182_o5",
+          "text": "Only one class probability is taken",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q182_o5",
+      "answer": "Only one class probability is taken",
+      "explanation": "For multi-class problems, taking only `[:,1]` keeps one class probability and ignores the rest of the probability matrix.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "Only one class probability is taken",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q183",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "In the logistic function y = 1/(1 + e^(-z)), where z = b0 + b1*x1 + b2*x2 + ... + bk*xk, what is k?",
+      "options": [
+        {
+          "id": "q183_o1",
+          "text": "the coefficient to optimize",
+          "isCorrect": false
+        },
+        {
+          "id": "q183_o2",
+          "text": "sets of values of respective Xs and Ys",
+          "isCorrect": false
+        },
+        {
+          "id": "q183_o3",
+          "text": "number of observations in data",
+          "isCorrect": false
+        },
+        {
+          "id": "q183_o4",
+          "text": "the number of independent variables/features",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q183_o4",
+      "answer": "the number of independent variables/features",
+      "explanation": "In the linear term z = b0 + b1*x1 + ... + bk*xk, k is the number of feature variables included in the model.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "the number of independent variables/features",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q184",
+      "category": "Train/test split, validation, and preprocessing",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does hyperparameter tuning do?",
+      "options": [
+        {
+          "id": "q184_o1",
+          "text": "Optimizes parameters to improve the performance of a learning algorithm",
+          "isCorrect": true
+        },
+        {
+          "id": "q184_o2",
+          "text": "Expands the parameter set of a model to improve performance",
+          "isCorrect": false
+        },
+        {
+          "id": "q184_o3",
+          "text": "Takes parameter tuning so far that performance degrades",
+          "isCorrect": false
+        },
+        {
+          "id": "q184_o4",
+          "text": "Specifies the hyperplane that represents linear classifiers",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q184_o1",
+      "answer": "Optimizes parameters to improve the performance of a learning algorithm",
+      "explanation": "Hyperparameter tuning searches settings like max_depth or C that improve validation performance.",
+      "topicId": "splitting_validation_preprocessing",
+      "correctAnswer": "Optimizes parameters to improve the performance of a learning algorithm",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q185",
+      "category": "Decision trees and information gain",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does a decision tree split aim to achieve?",
+      "options": [
+        {
+          "id": "q185_o1",
+          "text": "Reduce dataset size",
+          "isCorrect": false
+        },
+        {
+          "id": "q185_o2",
+          "text": "Shuffle samples",
+          "isCorrect": false
+        },
+        {
+          "id": "q185_o3",
+          "text": "Scale features",
+          "isCorrect": false
+        },
+        {
+          "id": "q185_o4",
+          "text": "Add features",
+          "isCorrect": false
+        },
+        {
+          "id": "q185_o5",
+          "text": "Separate target values",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q185_o5",
+      "answer": "Separate target values",
+      "explanation": "A decision-tree split tries to create child nodes that separate target values more clearly than the parent node.",
+      "topicId": "decision_trees",
+      "correctAnswer": "Separate target values",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q186",
+      "category": "Decision trees and information gain",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the formula for entropy?",
+      "options": [
+        {
+          "id": "q186_o1",
+          "text": "Σ(p²)",
+          "isCorrect": false
+        },
+        {
+          "id": "q186_o2",
+          "text": "Σ(p)",
+          "isCorrect": false
+        },
+        {
+          "id": "q186_o3",
+          "text": "Σ|p|",
+          "isCorrect": false
+        },
+        {
+          "id": "q186_o4",
+          "text": "Σ(p³)",
+          "isCorrect": false
+        },
+        {
+          "id": "q186_o5",
+          "text": "-Σ p log p",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q186_o5",
+      "answer": "-Σ p log p",
+      "explanation": "Entropy is defined as -Σ p log p and measures impurity in a node.",
+      "topicId": "decision_trees",
+      "correctAnswer": "-Σ p log p",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q187",
+      "category": "Imbalanced data handling",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What would be better scoring for imbalanced classification?",
+      "options": [
+        {
+          "id": "q187_o1",
+          "text": "scoring='r2'",
+          "isCorrect": false
+        },
+        {
+          "id": "q187_o2",
+          "text": "scoring='neg_mean_squared_error'",
+          "isCorrect": false
+        },
+        {
+          "id": "q187_o3",
+          "text": "scoring='explained_variance'",
+          "isCorrect": false
+        },
+        {
+          "id": "q187_o4",
+          "text": "scoring='max_error'",
+          "isCorrect": false
+        },
+        {
+          "id": "q187_o5",
+          "text": "scoring='f1'",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q187_o5",
+      "answer": "scoring='f1'",
+      "explanation": "On imbalanced classification tasks, F1 is usually more informative than regression metrics because it balances precision and recall.",
+      "topicId": "imbalanced_data",
+      "correctAnswer": "scoring='f1'",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q188",
+      "category": "Decision trees and information gain",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the practical effect of increasing min_samples_leaf?",
+      "options": [
+        {
+          "id": "q188_o1",
+          "text": "More memorization",
+          "isCorrect": false
+        },
+        {
+          "id": "q188_o2",
+          "text": "More leaves appear",
+          "isCorrect": false
+        },
+        {
+          "id": "q188_o3",
+          "text": "Training accuracy always rises",
+          "isCorrect": false
+        },
+        {
+          "id": "q188_o4",
+          "text": "Tree becomes deeper",
+          "isCorrect": false
+        },
+        {
+          "id": "q188_o5",
+          "text": "Leaves become larger",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q188_o5",
+      "answer": "Leaves become larger",
+      "explanation": "Increasing `min_samples_leaf` prevents tiny terminal nodes and usually makes the tree smoother and less prone to overfitting.",
+      "topicId": "decision_trees",
+      "correctAnswer": "Leaves become larger",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q189",
+      "category": "Imbalanced data handling",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What happens if recall is low?",
+      "options": [
+        {
+          "id": "q189_o1",
+          "text": "More false positives",
+          "isCorrect": false
+        },
+        {
+          "id": "q189_o2",
+          "text": "More true negatives",
+          "isCorrect": false
+        },
+        {
+          "id": "q189_o3",
+          "text": "Better accuracy",
+          "isCorrect": false
+        },
+        {
+          "id": "q189_o4",
+          "text": "Faster training",
+          "isCorrect": false
+        },
+        {
+          "id": "q189_o5",
+          "text": "Missed positives",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q189_o5",
+      "answer": "Missed positives",
+      "explanation": "Low recall means the model is missing many actual positive cases, which corresponds to more false negatives.",
+      "topicId": "imbalanced_data",
+      "correctAnswer": "Missed positives",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q190",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is inertia in KMeans?",
+      "options": [
+        {
+          "id": "q190_o1",
+          "text": "Model accuracy",
+          "isCorrect": false
+        },
+        {
+          "id": "q190_o2",
+          "text": "Cluster count",
+          "isCorrect": false
+        },
+        {
+          "id": "q190_o3",
+          "text": "Feature importance",
+          "isCorrect": false
+        },
+        {
+          "id": "q190_o4",
+          "text": "Training time",
+          "isCorrect": false
+        },
+        {
+          "id": "q190_o5",
+          "text": "Sum of squared distances",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q190_o5",
+      "answer": "Sum of squared distances",
+      "explanation": "KMeans inertia is the within-cluster sum of squared distances from points to their assigned centroids.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Sum of squared distances",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q191",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "You choose K using elbow method, but the curve is smooth with no clear elbow. What should you do?",
+      "options": [
+        {
+          "id": "q191_o1",
+          "text": "Always pick K=2",
+          "isCorrect": false
+        },
+        {
+          "id": "q191_o2",
+          "text": "Increase dataset size",
+          "isCorrect": false
+        },
+        {
+          "id": "q191_o3",
+          "text": "Remove features",
+          "isCorrect": false
+        },
+        {
+          "id": "q191_o4",
+          "text": "Stop clustering",
+          "isCorrect": false
+        },
+        {
+          "id": "q191_o5",
+          "text": "Use other metrics like silhouette",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q191_o5",
+      "answer": "Use other metrics like silhouette",
+      "explanation": "If the elbow is unclear, the elbow method is inconclusive, so another metric such as silhouette score is a better guide.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Use other metrics like silhouette",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q192",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "You scale data and run KMeans. Then someone suggests removing scaling because “units are meaningful”. What is the correct reasoning?",
+      "options": [
+        {
+          "id": "q192_o1",
+          "text": "Scaling always improves clustering",
+          "isCorrect": false
+        },
+        {
+          "id": "q192_o2",
+          "text": "KMeans ignores units",
+          "isCorrect": false
+        },
+        {
+          "id": "q192_o3",
+          "text": "Units do not matter",
+          "isCorrect": false
+        },
+        {
+          "id": "q192_o4",
+          "text": "Scaling removes patterns",
+          "isCorrect": false
+        },
+        {
+          "id": "q192_o5",
+          "text": "Scaling choice depends on distance meaning",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q192_o5",
+      "answer": "Scaling choice depends on distance meaning",
+      "explanation": "Because KMeans is distance-based, scaling should depend on whether the feature units should influence distance.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Scaling choice depends on distance meaning",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q193",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What happens if distance threshold is very large?",
+      "options": [
+        {
+          "id": "q193_o1",
+          "text": "Many clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q193_o2",
+          "text": "No clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q193_o3",
+          "text": "Data split",
+          "isCorrect": false
+        },
+        {
+          "id": "q193_o4",
+          "text": "Faster model",
+          "isCorrect": false
+        },
+        {
+          "id": "q193_o5",
+          "text": "Few clusters",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q193_o5",
+      "answer": "Few clusters",
+      "explanation": "A larger distance threshold allows more merges, so you end up with fewer final clusters.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Few clusters",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q194",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "You compare ward vs complete linkage. What differs most?",
+      "options": [
+        {
+          "id": "q194_o1",
+          "text": "Feature count",
+          "isCorrect": false
+        },
+        {
+          "id": "q194_o2",
+          "text": "Dataset size",
+          "isCorrect": false
+        },
+        {
+          "id": "q194_o3",
+          "text": "Labels",
+          "isCorrect": false
+        },
+        {
+          "id": "q194_o4",
+          "text": "Scaling",
+          "isCorrect": false
+        },
+        {
+          "id": "q194_o5",
+          "text": "Cluster shape",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q194_o5",
+      "answer": "Cluster shape",
+      "explanation": "Ward and complete linkage often differ most in the shapes of clusters they tend to create.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Cluster shape",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q195",
+      "category": "LDA and SVD",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What happens if LDA is applied without labels?",
+      "options": [
+        {
+          "id": "q195_o1",
+          "text": "Works like PCA",
+          "isCorrect": false
+        },
+        {
+          "id": "q195_o2",
+          "text": "Clusters data",
+          "isCorrect": false
+        },
+        {
+          "id": "q195_o3",
+          "text": "Removes noise",
+          "isCorrect": false
+        },
+        {
+          "id": "q195_o4",
+          "text": "Scales features",
+          "isCorrect": false
+        },
+        {
+          "id": "q195_o5",
+          "text": "Cannot be applied",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q195_o5",
+      "answer": "Cannot be applied",
+      "explanation": "LDA is a supervised dimensionality-reduction method, so it cannot be fit without class labels.",
+      "topicId": "lda_svd",
+      "correctAnswer": "Cannot be applied",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q196",
+      "category": "NMF: Nonnegative Matrix Factorization",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "You increase n_components and reconstruction error decreases. What does this mean?",
+      "options": [
+        {
+          "id": "q196_o1",
+          "text": "Model overfits immediately",
+          "isCorrect": false
+        },
+        {
+          "id": "q196_o2",
+          "text": "Data is invalid",
+          "isCorrect": false
+        },
+        {
+          "id": "q196_o3",
+          "text": "No learning",
+          "isCorrect": false
+        },
+        {
+          "id": "q196_o4",
+          "text": "Components useless",
+          "isCorrect": false
+        },
+        {
+          "id": "q196_o5",
+          "text": "Better approximation",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q196_o5",
+      "answer": "Better approximation",
+      "explanation": "Adding more NMF components usually allows a closer reconstruction of the original matrix, which lowers reconstruction error.",
+      "topicId": "nmf",
+      "correctAnswer": "Better approximation",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q197",
+      "category": "Ensemble learning: Random Forest, AdaBoost, Gradient Boosting",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the main benefit of Random Forest?",
+      "options": [
+        {
+          "id": "q197_o1",
+          "text": "Removes features",
+          "isCorrect": false
+        },
+        {
+          "id": "q197_o2",
+          "text": "Reduces dataset",
+          "isCorrect": false
+        },
+        {
+          "id": "q197_o3",
+          "text": "Speeds up scaling",
+          "isCorrect": false
+        },
+        {
+          "id": "q197_o4",
+          "text": "Encodes data",
+          "isCorrect": false
+        },
+        {
+          "id": "q197_o5",
+          "text": "Reduces overfitting",
+          "isCorrect": true
+        }
+      ],
+      "correctOptionId": "q197_o5",
+      "answer": "Reduces overfitting",
+      "explanation": "Random Forest averages many de-correlated trees, which reduces variance and helps control overfitting.",
+      "topicId": "ensembles",
+      "correctAnswer": "Reduces overfitting",
+      "correctOptionIndex": 4
+    },
+    {
+      "id": "q198",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is a cluster prototype?",
+      "options": [
+        {
+          "id": "q198_o1",
+          "text": "A representative object of a cluster",
+          "isCorrect": true
+        },
+        {
+          "id": "q198_o2",
+          "text": "A random data point",
+          "isCorrect": false
+        },
+        {
+          "id": "q198_o3",
+          "text": "A labeled example",
+          "isCorrect": false
+        },
+        {
+          "id": "q198_o4",
+          "text": "A noise point",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q198_o1",
+      "answer": "A representative object of a cluster",
+      "explanation": "A cluster prototype is a representative object or summary point for a cluster.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "A representative object of a cluster",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q199",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is complete linkage?",
+      "options": [
+        {
+          "id": "q199_o1",
+          "text": "Distance between farthest points of clusters",
+          "isCorrect": true
+        },
+        {
+          "id": "q199_o2",
+          "text": "Closest points",
+          "isCorrect": false
+        },
+        {
+          "id": "q199_o3",
+          "text": "Average points",
+          "isCorrect": false
+        },
+        {
+          "id": "q199_o4",
+          "text": "Centroids",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q199_o1",
+      "answer": "Distance between farthest points of clusters",
+      "explanation": "Complete linkage defines inter-cluster distance using the farthest pair of points across the two clusters.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Distance between farthest points of clusters",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q200",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is single linkage?",
+      "options": [
+        {
+          "id": "q200_o1",
+          "text": "Distance between closest points of clusters",
+          "isCorrect": true
+        },
+        {
+          "id": "q200_o2",
+          "text": "Distance between centroids",
+          "isCorrect": false
+        },
+        {
+          "id": "q200_o3",
+          "text": "Average distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q200_o4",
+          "text": "Farthest distance",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q200_o1",
+      "answer": "Distance between closest points of clusters",
+      "explanation": "Single linkage defines inter-cluster distance using the closest pair of points across the two clusters.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Distance between closest points of clusters",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q201",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is divisive clustering?",
+      "options": [
+        {
+          "id": "q201_o1",
+          "text": "Splitting one cluster into many",
+          "isCorrect": true
+        },
+        {
+          "id": "q201_o2",
+          "text": "Merging clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q201_o3",
+          "text": "Removing noise",
+          "isCorrect": false
+        },
+        {
+          "id": "q201_o4",
+          "text": "Optimizing SSE",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q201_o1",
+      "answer": "Splitting one cluster into many",
+      "explanation": "Divisive clustering starts with one large cluster and repeatedly splits it into smaller ones.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Splitting one cluster into many",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q202",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does silhouette coefficient measure?",
+      "options": [
+        {
+          "id": "q202_o1",
+          "text": "Quality of clustering",
+          "isCorrect": true
+        },
+        {
+          "id": "q202_o2",
+          "text": "Cluster size",
+          "isCorrect": false
+        },
+        {
+          "id": "q202_o3",
+          "text": "Distance matrix",
+          "isCorrect": false
+        },
+        {
+          "id": "q202_o4",
+          "text": "Number of clusters",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q202_o1",
+      "answer": "Quality of clustering",
+      "explanation": "The silhouette coefficient measures how well points fit their own cluster compared with neighboring clusters.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Quality of clustering",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q203",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Which method is more complex to implement?",
+      "options": [
+        {
+          "id": "q203_o1",
+          "text": "Divisive clustering",
+          "isCorrect": true
+        },
+        {
+          "id": "q203_o2",
+          "text": "Agglomerative clustering",
+          "isCorrect": false
+        },
+        {
+          "id": "q203_o3",
+          "text": "K-means",
+          "isCorrect": false
+        },
+        {
+          "id": "q203_o4",
+          "text": "DBSCAN",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q203_o1",
+      "answer": "Divisive clustering",
+      "explanation": "Divisive clustering is typically harder to implement because it requires repeated splitting decisions.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Divisive clustering",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q204",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What happens after assigning points to clusters?",
+      "options": [
+        {
+          "id": "q204_o1",
+          "text": "Centroids are updated",
+          "isCorrect": true
+        },
+        {
+          "id": "q204_o2",
+          "text": "Algorithm stops",
+          "isCorrect": false
+        },
+        {
+          "id": "q204_o3",
+          "text": "Clusters are deleted",
+          "isCorrect": false
+        },
+        {
+          "id": "q204_o4",
+          "text": "Noise is removed",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q204_o1",
+      "answer": "Centroids are updated",
+      "explanation": "After assigning points to the nearest clusters, KMeans recomputes centroids as the mean of the assigned points.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Centroids are updated",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q205",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Which distance is commonly used in K-means?",
+      "options": [
+        {
+          "id": "q205_o1",
+          "text": "Euclidean distance",
+          "isCorrect": true
+        },
+        {
+          "id": "q205_o2",
+          "text": "Hamming distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q205_o3",
+          "text": "Cosine similarity",
+          "isCorrect": false
+        },
+        {
+          "id": "q205_o4",
+          "text": "Jaccard index",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q205_o1",
+      "answer": "Euclidean distance",
+      "explanation": "Standard KMeans is based on Euclidean distance.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Euclidean distance",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q206",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the complexity of K-means dependent on?",
+      "options": [
+        {
+          "id": "q206_o1",
+          "text": "Number of points, clusters, and iterations",
+          "isCorrect": true
+        },
+        {
+          "id": "q206_o2",
+          "text": "Only number of features",
+          "isCorrect": false
+        },
+        {
+          "id": "q206_o3",
+          "text": "Only number of clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q206_o4",
+          "text": "Only iterations",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q206_o1",
+      "answer": "Number of points, clusters, and iterations",
+      "explanation": "The time cost of KMeans grows with the number of points, clusters, and iterations it must process.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Number of points, clusters, and iterations",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q207",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What happens if K is chosen incorrectly?",
+      "options": [
+        {
+          "id": "q207_o1",
+          "text": "Poor clustering results",
+          "isCorrect": true
+        },
+        {
+          "id": "q207_o2",
+          "text": "Algorithm crashes",
+          "isCorrect": false
+        },
+        {
+          "id": "q207_o3",
+          "text": "No output",
+          "isCorrect": false
+        },
+        {
+          "id": "q207_o4",
+          "text": "Faster convergence",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q207_o1",
+      "answer": "Poor clustering results",
+      "explanation": "If K is too small or too large, the partition will not match the underlying structure well.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Poor clustering results",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q208",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "K-means assumes clusters are:",
+      "options": [
+        {
+          "id": "q208_o1",
+          "text": "Globular (spherical)",
+          "isCorrect": true
+        },
+        {
+          "id": "q208_o2",
+          "text": "Linear",
+          "isCorrect": false
+        },
+        {
+          "id": "q208_o3",
+          "text": "Random",
+          "isCorrect": false
+        },
+        {
+          "id": "q208_o4",
+          "text": "Disconnected",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q208_o1",
+      "answer": "Globular (spherical)",
+      "explanation": "KMeans works best when clusters are roughly spherical around their centroids.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Globular (spherical)",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q209",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is a major weakness of K-means:",
+      "options": [
+        {
+          "id": "q209_o1",
+          "text": "Sensitive to initial centroids",
+          "isCorrect": true
+        },
+        {
+          "id": "q209_o2",
+          "text": "Works only with text",
+          "isCorrect": false
+        },
+        {
+          "id": "q209_o3",
+          "text": "Needs labels",
+          "isCorrect": false
+        },
+        {
+          "id": "q209_o4",
+          "text": "Cannot scale",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q209_o1",
+      "answer": "Sensitive to initial centroids",
+      "explanation": "Because KMeans starts from initial centroids, different initializations can lead to different local optima.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Sensitive to initial centroids",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q210",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "In agglomerative hierarchical clustering, what is the initial step?",
+      "options": [
+        {
+          "id": "q210_o1",
+          "text": "Each object is its own cluster",
+          "isCorrect": true
+        },
+        {
+          "id": "q210_o2",
+          "text": "Start with one cluster",
+          "isCorrect": false
+        },
+        {
+          "id": "q210_o3",
+          "text": "Start with random clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q210_o4",
+          "text": "Use centroids immediately",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q210_o1",
+      "answer": "Each object is its own cluster",
+      "explanation": "Agglomerative clustering begins with each sample as its own cluster and then merges them step by step.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Each object is its own cluster",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q211",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the stopping condition in K-means?",
+      "options": [
+        {
+          "id": "q211_o1",
+          "text": "Centroids do not change significantly",
+          "isCorrect": true
+        },
+        {
+          "id": "q211_o2",
+          "text": "All data removed",
+          "isCorrect": false
+        },
+        {
+          "id": "q211_o3",
+          "text": "Maximum clusters reached",
+          "isCorrect": false
+        },
+        {
+          "id": "q211_o4",
+          "text": "Distance is zero",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q211_o1",
+      "answer": "Centroids do not change significantly",
+      "explanation": "KMeans typically stops when centroid locations or cluster assignments stop changing meaningfully.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Centroids do not change significantly",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q212",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the first step in K-means algorithm?",
+      "options": [
+        {
+          "id": "q212_o1",
+          "text": "Initialize centroids",
+          "isCorrect": true
+        },
+        {
+          "id": "q212_o2",
+          "text": "Assign clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q212_o3",
+          "text": "Compute distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q212_o4",
+          "text": "Update centroids",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q212_o1",
+      "answer": "Initialize centroids",
+      "explanation": "The first step in KMeans is to initialize cluster centroids.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Initialize centroids",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q213",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is a centroid ?",
+      "options": [
+        {
+          "id": "q213_o1",
+          "text": "Mean point of a cluster",
+          "isCorrect": true
+        },
+        {
+          "id": "q213_o2",
+          "text": "Random point",
+          "isCorrect": false
+        },
+        {
+          "id": "q213_o3",
+          "text": "Outlier",
+          "isCorrect": false
+        },
+        {
+          "id": "q213_o4",
+          "text": "Noise point",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q213_o1",
+      "answer": "Mean point of a cluster",
+      "explanation": "A centroid is the mean location of the points assigned to a cluster.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Mean point of a cluster",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q214",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "K-means is sensitive to:",
+      "options": [
+        {
+          "id": "q214_o1",
+          "text": "Outliers",
+          "isCorrect": true
+        },
+        {
+          "id": "q214_o2",
+          "text": "File size",
+          "isCorrect": false
+        },
+        {
+          "id": "q214_o3",
+          "text": "Variable names",
+          "isCorrect": false
+        },
+        {
+          "id": "q214_o4",
+          "text": "Programming language",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q214_o1",
+      "answer": "Outliers",
+      "explanation": "Outliers can pull centroids away from dense regions, so KMeans is sensitive to them.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Outliers",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q215",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "K-means mainly works with which type of data?",
+      "options": [
+        {
+          "id": "q215_o1",
+          "text": "Numeric data",
+          "isCorrect": true
+        },
+        {
+          "id": "q215_o2",
+          "text": "Text data",
+          "isCorrect": false
+        },
+        {
+          "id": "q215_o3",
+          "text": "Image labels",
+          "isCorrect": false
+        },
+        {
+          "id": "q215_o4",
+          "text": "Ordinal rank data",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q215_o1",
+      "answer": "Numeric data",
+      "explanation": "KMeans relies on numeric distance calculations, so it mainly works with numeric feature vectors.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Numeric data",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q216",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does K in K-means represent?",
+      "options": [
+        {
+          "id": "q216_o1",
+          "text": "Number of clusters",
+          "isCorrect": true
+        },
+        {
+          "id": "q216_o2",
+          "text": "Number of features",
+          "isCorrect": false
+        },
+        {
+          "id": "q216_o3",
+          "text": "Number of iterations",
+          "isCorrect": false
+        },
+        {
+          "id": "q216_o4",
+          "text": "Number of samples",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q216_o1",
+      "answer": "Number of clusters",
+      "explanation": "In KMeans, K is the number of clusters the algorithm should form.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Number of clusters",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q217",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is vector quantization in clustering?",
+      "options": [
+        {
+          "id": "q217_o1",
+          "text": "A way to compress data using cluster prototypes",
+          "isCorrect": true
+        },
+        {
+          "id": "q217_o2",
+          "text": "A method for classification",
+          "isCorrect": false
+        },
+        {
+          "id": "q217_o3",
+          "text": "A distance metric",
+          "isCorrect": false
+        },
+        {
+          "id": "q217_o4",
+          "text": "A clustering algorithm",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q217_o1",
+      "answer": "A way to compress data using cluster prototypes",
+      "explanation": "Vector quantization compresses data by replacing points with representative cluster prototypes.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "A way to compress data using cluster prototypes",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q218",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is the main limitation of K-means clustering?",
+      "options": [
+        {
+          "id": "q218_o1",
+          "text": "It requires the number of clusters (K) beforehand",
+          "isCorrect": true
+        },
+        {
+          "id": "q218_o2",
+          "text": "It detects noise automatically",
+          "isCorrect": false
+        },
+        {
+          "id": "q218_o3",
+          "text": "It works only with categorical data",
+          "isCorrect": false
+        },
+        {
+          "id": "q218_o4",
+          "text": "It produces hierarchical clusters",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q218_o1",
+      "answer": "It requires the number of clusters (K) beforehand",
+      "explanation": "Classic KMeans requires you to choose the number of clusters before fitting the algorithm.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "It requires the number of clusters (K) beforehand",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q219",
+      "category": "DBSCAN density-based clustering",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Which definition best describes density-based clusters?",
+      "options": [
+        {
+          "id": "q219_o1",
+          "text": "Dense regions separated by low-density areas",
+          "isCorrect": true
+        },
+        {
+          "id": "q219_o2",
+          "text": "Objects connected in a graph",
+          "isCorrect": false
+        },
+        {
+          "id": "q219_o3",
+          "text": "Objects closest to a centroid",
+          "isCorrect": false
+        },
+        {
+          "id": "q219_o4",
+          "text": "Objects sharing labels",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q219_o1",
+      "answer": "Dense regions separated by low-density areas",
+      "explanation": "Density-based clusters are dense regions separated by sparse areas.",
+      "topicId": "clustering_dbscan",
+      "correctAnswer": "Dense regions separated by low-density areas",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q220",
+      "category": "DBSCAN density-based clustering",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is a key feature of DBSCAN?",
+      "options": [
+        {
+          "id": "q220_o1",
+          "text": "Detects clusters based on density and identifies noise",
+          "isCorrect": true
+        },
+        {
+          "id": "q220_o2",
+          "text": "Requires predefined number of clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q220_o3",
+          "text": "Uses centroids",
+          "isCorrect": false
+        },
+        {
+          "id": "q220_o4",
+          "text": "Works only with labeled data",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q220_o1",
+      "answer": "Detects clusters based on density and identifies noise",
+      "explanation": "DBSCAN finds clusters from density and can also mark isolated points as noise.",
+      "topicId": "clustering_dbscan",
+      "correctAnswer": "Detects clusters based on density and identifies noise",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q221",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is a limitation of agglomerative clustering?",
+      "options": [
+        {
+          "id": "q221_o1",
+          "text": "Cannot revise earlier decisions",
+          "isCorrect": true
+        },
+        {
+          "id": "q221_o2",
+          "text": "Needs labels",
+          "isCorrect": false
+        },
+        {
+          "id": "q221_o3",
+          "text": "Too fast",
+          "isCorrect": false
+        },
+        {
+          "id": "q221_o4",
+          "text": "Works only on text",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q221_o1",
+      "answer": "Cannot revise earlier decisions",
+      "explanation": "Once agglomerative clustering merges two clusters, that earlier decision cannot be undone.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Cannot revise earlier decisions",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q222",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does Ward's method minimize?",
+      "options": [
+        {
+          "id": "q222_o1",
+          "text": "Sum of squared distances",
+          "isCorrect": true
+        },
+        {
+          "id": "q222_o2",
+          "text": "Cluster count",
+          "isCorrect": false
+        },
+        {
+          "id": "q222_o3",
+          "text": "Distance matrix",
+          "isCorrect": false
+        },
+        {
+          "id": "q222_o4",
+          "text": "Noise",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q222_o1",
+      "answer": "Sum of squared distances",
+      "explanation": "Ward's method chooses merges that minimize the increase in within-cluster sum of squares.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Sum of squared distances",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q223",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What is hierarchical clustering?",
+      "options": [
+        {
+          "id": "q223_o1",
+          "text": "Clustering with nested groups forming a tree",
+          "isCorrect": true
+        },
+        {
+          "id": "q223_o2",
+          "text": "Flat clustering without structure",
+          "isCorrect": false
+        },
+        {
+          "id": "q223_o3",
+          "text": "Random grouping",
+          "isCorrect": false
+        },
+        {
+          "id": "q223_o4",
+          "text": "Density-based clustering",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q223_o1",
+      "answer": "Clustering with nested groups forming a tree",
+      "explanation": "Hierarchical clustering builds a nested tree of groups rather than just one flat partition.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Clustering with nested groups forming a tree",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q224",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What type of clustering is K-means?",
+      "options": [
+        {
+          "id": "q224_o1",
+          "text": "Prototype-based clustering",
+          "isCorrect": true
+        },
+        {
+          "id": "q224_o2",
+          "text": "Hierarchical clustering",
+          "isCorrect": false
+        },
+        {
+          "id": "q224_o3",
+          "text": "Density-based clustering",
+          "isCorrect": false
+        },
+        {
+          "id": "q224_o4",
+          "text": "Graph-based clustering",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q224_o1",
+      "answer": "Prototype-based clustering",
+      "explanation": "KMeans is prototype-based because each cluster is represented by a centroid prototype.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Prototype-based clustering",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q225",
+      "category": "Unsupervised learning and KMeans",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "How are points assigned to clusters?",
+      "options": [
+        {
+          "id": "q225_o1",
+          "text": "Based on nearest centroid",
+          "isCorrect": true
+        },
+        {
+          "id": "q225_o2",
+          "text": "Random assignment",
+          "isCorrect": false
+        },
+        {
+          "id": "q225_o3",
+          "text": "Largest distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q225_o4",
+          "text": "Based on feature names",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q225_o1",
+      "answer": "Based on nearest centroid",
+      "explanation": "Each point is assigned to the cluster with the nearest centroid.",
+      "topicId": "clustering_kmeans",
+      "correctAnswer": "Based on nearest centroid",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q226",
+      "category": "k-NN and distance-based classification",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "In kNN, for measuring distance with continuous features we use _____",
+      "options": [
+        {
+          "id": "q226_o1",
+          "text": "Euclidean distance",
+          "isCorrect": true
+        },
+        {
+          "id": "q226_o2",
+          "text": "Geographical distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q226_o3",
+          "text": "Statistic distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q226_o4",
+          "text": "Hamming distance",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q226_o1",
+      "answer": "Euclidean distance",
+      "explanation": "Euclidean distance is the standard choice for k-NN when features are continuous-valued.",
+      "topicId": "knn",
+      "correctAnswer": "Euclidean distance",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q227",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "In confusion matrix for cancer detection if we predicted yes, but they don't have the disease",
+      "options": [
+        {
+          "id": "q227_o1",
+          "text": "False positives (FP)",
+          "isCorrect": true
+        },
+        {
+          "id": "q227_o2",
+          "text": "True positives (TP)",
+          "isCorrect": false
+        },
+        {
+          "id": "q227_o3",
+          "text": "False negatives (FN)",
+          "isCorrect": false
+        },
+        {
+          "id": "q227_o4",
+          "text": "True negatives (TN)",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q227_o1",
+      "answer": "False positives (FP)",
+      "explanation": "A false positive means the model predicted the positive class even though the true class was negative.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "False positives (FP)",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q228",
+      "category": "Train/test split, validation, and preprocessing",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Data used to optimize the parameter settings of a supervised learner model.",
+      "options": [
+        {
+          "id": "q228_o1",
+          "text": "Validation",
+          "isCorrect": true
+        },
+        {
+          "id": "q228_o2",
+          "text": "Training",
+          "isCorrect": false
+        },
+        {
+          "id": "q228_o3",
+          "text": "Verification",
+          "isCorrect": false
+        },
+        {
+          "id": "q228_o4",
+          "text": "Test",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q228_o1",
+      "answer": "Validation",
+      "explanation": "The validation set is used to tune parameter settings before the final test evaluation.",
+      "topicId": "splitting_validation_preprocessing",
+      "correctAnswer": "Validation",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q229",
+      "category": "Regression and cross-validation",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "In a simple regression model, if you increase the input value by 1 then you expect the output to change by:",
+      "options": [
+        {
+          "id": "q229_o1",
+          "text": "The value of the slope parameter",
+          "isCorrect": true
+        },
+        {
+          "id": "q229_o2",
+          "text": "The value of the intercept parameter",
+          "isCorrect": false
+        },
+        {
+          "id": "q229_o3",
+          "text": "The values of the slope AND the intercept parameters",
+          "isCorrect": false
+        },
+        {
+          "id": "q229_o4",
+          "text": "None of these",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q229_o1",
+      "answer": "The value of the slope parameter",
+      "explanation": "In simple linear regression, increasing x by 1 changes the prediction by the slope coefficient.",
+      "topicId": "regression_cv",
+      "correctAnswer": "The value of the slope parameter",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q230",
+      "category": "k-NN and distance-based classification",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "How is the performance of k-NN affected by large values of k?",
+      "options": [
+        {
+          "id": "q230_o1",
+          "text": "Majority class will dominate predictions",
+          "isCorrect": true
+        },
+        {
+          "id": "q230_o2",
+          "text": "k-NN becomes sensitive to noise data",
+          "isCorrect": false
+        },
+        {
+          "id": "q230_o3",
+          "text": "Not affected at all. k-NN is robust to any values of k",
+          "isCorrect": false
+        },
+        {
+          "id": "q230_o4",
+          "text": "Large values of k produce the best results",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q230_o1",
+      "answer": "Majority class will dominate predictions",
+      "explanation": "Very large k oversmooths the decision rule, so the majority class tends to dominate predictions.",
+      "topicId": "knn",
+      "correctAnswer": "Majority class will dominate predictions",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q231",
+      "category": "Train/test split, validation, and preprocessing",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Data used to build a data mining model.",
+      "options": [
+        {
+          "id": "q231_o1",
+          "text": "Training data",
+          "isCorrect": true
+        },
+        {
+          "id": "q231_o2",
+          "text": "Validation data",
+          "isCorrect": false
+        },
+        {
+          "id": "q231_o3",
+          "text": "Hidden data",
+          "isCorrect": false
+        },
+        {
+          "id": "q231_o4",
+          "text": "Test data",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q231_o1",
+      "answer": "Training data",
+      "explanation": "Training data is the data used to fit the model parameters.",
+      "topicId": "splitting_validation_preprocessing",
+      "correctAnswer": "Training data",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q232",
+      "category": "k-NN and distance-based classification",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "KNN is not suitable when you have ...",
+      "options": [
+        {
+          "id": "q232_o1",
+          "text": "Very many features",
+          "isCorrect": true
+        },
+        {
+          "id": "q232_o2",
+          "text": "Categorical data",
+          "isCorrect": false
+        },
+        {
+          "id": "q232_o3",
+          "text": "Less than 100 data points",
+          "isCorrect": false
+        },
+        {
+          "id": "q232_o4",
+          "text": "A regression problem",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q232_o1",
+      "answer": "Very many features",
+      "explanation": "With very many features, distance measures become less informative, which hurts k-NN performance.",
+      "topicId": "knn",
+      "correctAnswer": "Very many features",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q233",
+      "category": "Regression and cross-validation",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "What does the least squares method do?",
+      "options": [
+        {
+          "id": "q233_o1",
+          "text": "Finds the best values for intercept and slope that provide us the smallest residual sum of squares",
+          "isCorrect": true
+        },
+        {
+          "id": "q233_o2",
+          "text": "Minimizes the distance between points",
+          "isCorrect": false
+        },
+        {
+          "id": "q233_o3",
+          "text": "Finds the least problematic regression line",
+          "isCorrect": false
+        },
+        {
+          "id": "q233_o4",
+          "text": "Finds the best values for intercept and slope that provide us the greatest residual sum of squares",
+          "isCorrect": false
+        },
+        {
+          "id": "q233_o5",
+          "text": "Finds the best values for intercept and slope that provide us the smallest residual",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q233_o1",
+      "answer": "Finds the best values for intercept and slope that provide us the smallest residual sum of squares",
+      "explanation": "Least squares chooses coefficients that minimize the residual sum of squares.",
+      "topicId": "regression_cv",
+      "correctAnswer": "Finds the best values for intercept and slope that provide us the smallest residual sum of squares",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q234",
+      "category": "k-NN and distance-based classification",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "The k in k-nearest neighbour is ...",
+      "options": [
+        {
+          "id": "q234_o1",
+          "text": "The number of neighbours used for computing output",
+          "isCorrect": true
+        },
+        {
+          "id": "q234_o2",
+          "text": "The number of features used to compare neighbours",
+          "isCorrect": false
+        },
+        {
+          "id": "q234_o3",
+          "text": "The number of features used to set the distance",
+          "isCorrect": false
+        },
+        {
+          "id": "q234_o4",
+          "text": "The number of neighbours used to cluster data",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q234_o1",
+      "answer": "The number of neighbours used for computing output",
+      "explanation": "In k-NN, k is the number of neighbors used to make the prediction.",
+      "topicId": "knn",
+      "correctAnswer": "The number of neighbours used for computing output",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q235",
+      "category": "Regression and cross-validation",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Suppose you are using k-fold cross-validation to assess model quality. How many times should you train the model?",
+      "options": [
+        {
+          "id": "q235_o1",
+          "text": "k",
+          "isCorrect": true
+        },
+        {
+          "id": "q235_o2",
+          "text": "k(k-1)/2",
+          "isCorrect": false
+        },
+        {
+          "id": "q235_o3",
+          "text": "k^2",
+          "isCorrect": false
+        },
+        {
+          "id": "q235_o4",
+          "text": "1",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q235_o1",
+      "answer": "k",
+      "explanation": "In k-fold cross-validation, the model is trained once per fold, so k times in total.",
+      "topicId": "regression_cv",
+      "correctAnswer": "k",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q236",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "This technique associates a conditional probability value with each data instance.",
+      "options": [
+        {
+          "id": "q236_o1",
+          "text": "Logistic regression",
+          "isCorrect": true
+        },
+        {
+          "id": "q236_o2",
+          "text": "Simple regression",
+          "isCorrect": false
+        },
+        {
+          "id": "q236_o3",
+          "text": "Linear regression",
+          "isCorrect": false
+        },
+        {
+          "id": "q236_o4",
+          "text": "Multiple linear regression",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q236_o1",
+      "answer": "Logistic regression",
+      "explanation": "Logistic regression models class probability, so it naturally outputs a conditional probability for each instance.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "Logistic regression",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q237",
+      "category": "Imbalanced data handling",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Let's assume you are working with a severely imbalanced dataset. You want to split the data into 2 categories using a classification learning algorithm. Which of the following metrics should you avoid using when analysing the algorithm's performance?",
+      "options": [
+        {
+          "id": "q237_o1",
+          "text": "Accuracy",
+          "isCorrect": true
+        },
+        {
+          "id": "q237_o2",
+          "text": "Recall",
+          "isCorrect": false
+        },
+        {
+          "id": "q237_o3",
+          "text": "Precision",
+          "isCorrect": false
+        },
+        {
+          "id": "q237_o4",
+          "text": "F1-score",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q237_o1",
+      "answer": "Accuracy",
+      "explanation": "Accuracy can look deceptively high on severely imbalanced data even when the minority class is predicted poorly.",
+      "topicId": "imbalanced_data",
+      "correctAnswer": "Accuracy",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q238",
+      "category": "Decision trees and information gain",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "A fundamental topic in ML is bias, variance and their relationship with learning algorithms. High variance models typically pay a lot of attention to the training data and don't generalize well to unseen data. Low variance models focus on patterns that will later generalize well to unseen data. Which of the following algorithms can be considered high variance models?",
+      "options": [
+        {
+          "id": "q238_o1",
+          "text": "Decision tree",
+          "isCorrect": true
+        },
+        {
+          "id": "q238_o2",
+          "text": "Random Forest",
+          "isCorrect": false
+        },
+        {
+          "id": "q238_o3",
+          "text": "Support Vector Machine (SVM)",
+          "isCorrect": false
+        },
+        {
+          "id": "q238_o4",
+          "text": "Logistic regression",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q238_o1",
+      "answer": "Decision tree",
+      "explanation": "A single decision tree is a high-variance model because small data changes can produce a very different tree.",
+      "topicId": "decision_trees",
+      "correctAnswer": "Decision tree",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q239",
+      "category": "Hierarchical clustering and silhouette basics",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Agglomerative clustering repeatedly merges ____",
+      "options": [
+        {
+          "id": "q239_o1",
+          "text": "Clusters with lowest distance",
+          "isCorrect": true
+        },
+        {
+          "id": "q239_o2",
+          "text": "Standard-scaled clusters",
+          "isCorrect": false
+        },
+        {
+          "id": "q239_o3",
+          "text": "Clusters with highest accuracy",
+          "isCorrect": false
+        },
+        {
+          "id": "q239_o4",
+          "text": "Clusters with lowest variance",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q239_o1",
+      "answer": "Clusters with lowest distance",
+      "explanation": "Agglomerative clustering repeatedly merges the closest clusters according to its linkage rule.",
+      "topicId": "hierarchical_clustering",
+      "correctAnswer": "Clusters with lowest distance",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q240",
+      "category": "Classification metrics and logistic regression",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "Which algorithm is not suitable for solving a problem in which objects need to be divided into classes?",
+      "options": [
+        {
+          "id": "q240_o1",
+          "text": "Linear regression",
+          "isCorrect": true
+        },
+        {
+          "id": "q240_o2",
+          "text": "Random Forest",
+          "isCorrect": false
+        },
+        {
+          "id": "q240_o3",
+          "text": "Decision tree",
+          "isCorrect": false
+        },
+        {
+          "id": "q240_o4",
+          "text": "Logistic regression",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q240_o1",
+      "answer": "Linear regression",
+      "explanation": "Linear regression predicts continuous values, so it is not the right algorithm for class labels.",
+      "topicId": "classification_metrics_logistic",
+      "correctAnswer": "Linear regression",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q241",
+      "category": "Train/test split, validation, and preprocessing",
+      "type": "single_choice",
+      "difficulty": "exam_practice",
+      "prompt": "For polynomial regression, which one of these structural assumptions is the one that most affects the trade-off between underfitting and overfitting:",
+      "options": [
+        {
+          "id": "q241_o1",
+          "text": "The polynomial degree",
+          "isCorrect": true
+        },
+        {
+          "id": "q241_o2",
+          "text": "Whether we learn the weights by matrix inversion or gradient descent",
+          "isCorrect": false
+        },
+        {
+          "id": "q241_o3",
+          "text": "The assumed variance of the Gaussian noise",
+          "isCorrect": false
+        },
+        {
+          "id": "q241_o4",
+          "text": "The use of a constant-term unit input",
+          "isCorrect": false
+        }
+      ],
+      "correctOptionId": "q241_o1",
+      "answer": "The polynomial degree",
+      "explanation": "Polynomial degree controls model flexibility most directly, so it drives the underfitting/overfitting trade-off.",
+      "topicId": "splitting_validation_preprocessing",
+      "correctAnswer": "The polynomial degree",
+      "correctOptionIndex": 0
     }
   ]
 }
